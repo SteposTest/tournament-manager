@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==5.1.3"
+psycopg2-binary = "==2.9.10"
+aiogram = "==3.14.0"
+
+[dev-packages]
+wemake-python-styleguide = "==0.19.2"
+arel = "==0.3.0"
+python-dotenv = "*"
+black = "*"
+
+[requires]
+python_version = "3.12"
+
+[scripts]
+start-server = "python src/manage.py runserver 0.0.0.0:8000"
+format = "black -S src"
+format-check = "black -S src --check"
+lint = "flake8 src"
