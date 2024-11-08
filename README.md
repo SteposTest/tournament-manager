@@ -23,21 +23,25 @@ To set up and run the **fff-manager** project locally, follow these steps:
     Create a directory named `db_vol` in the root of the project to store database volumes:
    
    ```bash
-   mkdir db_vol
+   make create-db-vol
    ```
 
 2. **Build the Docker image**:
     Build the Docker image for the project by running:
 
     ```bash
-    docker build -t fff-manager:latest .
+    make build
     ```
 
-3. **Start the Docker containers**:
+3. **Create your own docker-compose file**
+    Use [docker-compose-example.yaml](docker-compose-example.yaml) for that. Just copy and rename it.
+    Then set all the necessary environment variables.
+
+4. **Start the Docker containers**:
     Use Docker Compose to start the containers defined in docker-compose.yml:
 
     ```bash
-    docker build -t fff-manager:latest .
+    make up
     ```
 
 This will set up and run the project along with all necessary services (like the database) in Docker containers.

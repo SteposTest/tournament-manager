@@ -8,19 +8,19 @@ services:
     volumes:
       - {ADD_PATH_TO_VOLUME_HERE}:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=verysafe01
-      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD={ADD_DB_PASSWORD_HERE}
+      - POSTGRES_USER={ADD_DB_USER_HERE}
       - POSTGRES_DB=postgres
   manager:
-    image: fff-manager:latest
+    image: tournament-manager:latest
     ports:
       - 8000:8000
     environment:
-      - SECRET_KEY='django-insecure-cy9y9p0gpj09ssmj$f0e$cygvk2_^3xb^6ukeue34wf+&2v@zc'
       - DEBUG=1
-      - BOT_TOKEN=506525199:AAFNi7rs7D5RCW7lGWTCfWXeKEcQrhaVUhQ
-      - DB_USER=postgres
-      - DB_PASSWORD=verysafe01
+      - SECRET_KEY={ADD_SECRET_KEY_HERE}
+      - BOT_TOKEN={ADD_TELEGRAM_BOT_TOKEN_HERE}
+      - DB_USER={ADD_DB_USER_HERE}
+      - DB_PASSWORD={ADD_DB_PASSWORD_HERE}
       - DB_HOST=postgres
       - DB_PORT=5432
       - PYTHONPATH=$PYTHONPATH:/app

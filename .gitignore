@@ -12,3 +12,6 @@ venv/
 
 # volume
 /db_vol/
+
+# docker
+/docker-compose.yaml
