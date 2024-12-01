@@ -1,9 +1,82 @@
-from pathlib import Path
+import logging
 import os
+from pathlib import Path
+
+from src.utils.log_formatter import FormatterMode
+
+# --- App settings ---
+
+APP_ID: str = os.getenv("APP_ID", "tournament_manager")
+APP_ENVIRONMENT: str = os.getenv("APP_ENVIRONMENT", "test")
+APP_VERSION_FILE: str = "src/.service_version"
+
+DEBUG = int(os.getenv('DEBUG'))
 
 # --- Telegram bot ---
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
+
+# --- logging ---
+
+LOGGER_NAME: str = os.getenv("LOGGER_NAME", f"{APP_ID}_{APP_ENVIRONMENT}")
+VERBOSE_LOGGER_NAME: str = os.getenv("VERBOSE_LOGGER_NAME", f"{APP_ID}_{APP_ENVIRONMENT}_verbose")
+
+LOGGING_LEVEL: int = logging.DEBUG if DEBUG else logging.INFO
+
+LOGGING = {
+        'version': 1,
+        'propagate': False,
+        'disable_existing_loggers': False,
+
+        'formatters': {
+            'console': {
+                'class': 'logging.Formatter',
+                'format': '%(asctime)s.%(msecs)03d %(levelname)s %(message)s',
+                "datefmt": "%Y-%m-%d %H:%M:%S",
+            },
+            'json_console': {
+                '()': 'src.utils.log_formatter.LogFormatter',
+                'formatter_mode': FormatterMode.COMPACT,
+                'limit_keys_to': ['call_id', 'input_data', 'result', 'function_full_name'],
+                'format': '%(asctime)s %(levelname)s %(message)s',
+            },
+        },
+
+        'handlers': {
+            'console': {
+                'class': 'logging.StreamHandler',
+                'formatter': 'console',
+            },
+            'json_console': {
+                'class': 'logging.StreamHandler',
+                'formatter': 'json_console',
+            },
+        },
+
+        'loggers': {
+            'root': {
+                'level': LOGGING_LEVEL,
+                'handlers': ['console'],
+                'propagate': True,
+            },
+            VERBOSE_LOGGER_NAME: {
+                'level': LOGGING_LEVEL,
+                'handlers': ['json_console'],
+            },
+            LOGGER_NAME: {
+                'level': LOGGING_LEVEL,
+                'handlers': ['console'],
+            },
+            'django.server': {
+                'level': LOGGING_LEVEL,
+                'handlers': ['console'],
+            },
+            'uvicorn': {
+                'level': LOGGING_LEVEL,
+                'handlers': ['console'],
+            }
+        },
+    }
 
 # --- Django ---
 
@@ -11,9 +84,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
-DEBUG = int(os.getenv('DEBUG'))
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [os.getenv('MAIN_HOST')]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -92,5 +163,7 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

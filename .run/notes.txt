@@ -1,6 +1,0 @@
-# ~/PycharmProjects/fff-manager/src
-export $(cat ../.run/.env | xargs) && python ./manage.py startapp manager apps/manager
-
-export PYTHONPATH=$PYTHONPATH:$(pwd)/src
-
-https://github.com/MaksimZayats/aiogram-django-template/blob/main/README.md
