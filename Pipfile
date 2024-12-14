@@ -10,6 +10,7 @@ aiogram = "==3.14.0"
 ujson = "==5.10.0"
 wrapt = "==1.16.0"
 uvicorn = {extras = ["standard"], version = "==0.32.1"}
+pydantic = "==2.9.2"
 
 [dev-packages]
 wemake-python-styleguide = "==0.19.2"

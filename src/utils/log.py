@@ -12,9 +12,9 @@ from wrapt import decorator
 
 from src.config import settings
 
-HIDDEN_VALUE = "hidden"
+HIDDEN_VALUE = 'hidden'
 
-DEFAULT_SELF_INDICATOR = "object at"
+DEFAULT_SELF_INDICATOR = 'object at'
 
 LOWEST_LOG_LVL = 5
 
@@ -44,13 +44,17 @@ def async_log(
     async def _log(wrapped: FunctionType, instance: Any, args: tuple[Any], kwargs: dict[str, Any]) -> Any:
         """Actual implementation of the above decorator."""
         func_name = wrapped.__qualname__
-        function_full_name = f"{wrapped.__module__}.{func_name}"
-        extra = {"call_id": uuid1().hex, "function": func_name, "function_full_name": function_full_name}
+        function_full_name = f'{wrapped.__module__}.{func_name}'
+        extra = {
+            'call_id': uuid1().hex,
+            'function': func_name,
+            'function_full_name': function_full_name,
+        }
 
         try:
             params = inspect.getfullargspec(wrapped)
             start_time = time.time()
-            extra["input_data"] = get_logged_args(
+            extra['input_data'] = get_logged_args(
                 params,
                 [instance] + list(args) if instance else args,
                 kwargs,
@@ -59,7 +63,7 @@ def async_log(
 
             logger_inst.log(
                 level=lvl,
-                msg=f"call {func_name}{' (return log disabled)' if not enable_return_log else ''}",
+                msg=f'call {func_name}{' (return log disabled)' if not enable_return_log else ''}',
                 extra=extra,
             )
 
@@ -68,16 +72,16 @@ def async_log(
             if not enable_return_log:
                 return result
 
-            extra["result"] = HIDDEN_VALUE if hide_output else normalize_for_log(result)
-            extra["execution_time_ms"] = int((time.time() - start_time) * 1000)
+            extra['result'] = HIDDEN_VALUE if hide_output else normalize_for_log(result)
+            extra['execution_time_ms'] = int((time.time() - start_time) * 1000)
 
-            logger_inst.log(level=lvl, msg=f"return {func_name}", extra=extra)
+            logger_inst.log(level=lvl, msg=f'return {func_name}', extra=extra)
 
             return result
         except Exception as e:
-            logger_inst.exception(f"error in {func_name}", extra=extra if extra is not None else {})
+            logger_inst.exception(f'error in {func_name}', extra=extra if extra is not None else {})
 
-            if hasattr(e, "return_value"):
+            if hasattr(e, 'return_value'):
                 return e.return_value
 
             raise e
@@ -103,17 +107,17 @@ def get_logged_args(
     varargs = params.varargs
     if varargs:
         if _hide_items(args[len(params.args):], varargs, hidden_params) == HIDDEN_VALUE:
-            result["*args"] = f"hidden {len(args) - len(params.args)} args"
+            result['*args'] = f'hidden {len(args) - len(params.args)} args'
         else:
-            result["*args"] = tuple(normalize_for_log(i) for i in args[len(params.args):])
+            result['*args'] = tuple(normalize_for_log(i) for i in args[len(params.args):])
 
     for k, v in kwargs.items():
         kwarg = _hide_items(v, k, hidden_params)
         result[k] = normalize_for_log(kwarg)
 
-    self_argument = result.get("self")
+    self_argument = result.get('self')
     if self_argument is not None:
-        result["self"] = _format_self_argument(self_argument)
+        result['self'] = _format_self_argument(self_argument)
 
     return result
 # fmt: on
@@ -136,7 +140,7 @@ def _get_log_repr(value: Any) -> Any:
     if inspect.isclass(value):
         return str(value)
 
-    has_log_id = hasattr(value, "get_log_id")
+    has_log_id = hasattr(value, 'get_log_id')
     if has_log_id:
         return value.get_log_id()
 
@@ -157,7 +161,7 @@ def _hide_items(item: Any, item_name: str, hidden_params: Iterable) -> Any:
 
     for i in hidden_params:
         if re.match(item_name, i):
-            pointer = i.split("__")[1:]
+            pointer = i.split('__')[1:]
             if pointer not in hide_pointers:
                 hide_pointers.append(pointer)
 
@@ -196,7 +200,7 @@ def _format_self_argument(self_argument: str) -> str:
         return self_argument
 
     parts = self_argument.split(DEFAULT_SELF_INDICATOR)
-    obj_class_name = parts[0].strip().split(".")[-1]
-    object_id = parts[-1].strip().replace(">", "")
+    obj_class_name = parts[0].strip().split('.')[-1]
+    object_id = parts[-1].strip().replace('>', '')
 
-    return f"{obj_class_name} {DEFAULT_SELF_INDICATOR} {object_id}"
+    return f'{obj_class_name} {DEFAULT_SELF_INDICATOR} {object_id}'

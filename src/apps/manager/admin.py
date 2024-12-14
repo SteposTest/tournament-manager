@@ -45,4 +45,9 @@ class GameAdmin(admin.ModelAdmin):
     )
     list_filter = ('is_completed', 'date')
     search_fields = ('first_player__name', 'second_player__name')
-    autocomplete_fields = ('first_player', 'second_player', 'first_player_team', 'second_player_team')
+    autocomplete_fields = (
+        'first_player',
+        'second_player',
+        'first_player_team',
+        'second_player_team',
+    )

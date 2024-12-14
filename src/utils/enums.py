@@ -19,8 +19,8 @@ class Countries(BaseFieldEnum):
 class FIFAVersion(BaseFieldEnum):
     """List of FIFA versions."""
 
-    FIFA21 = 0
-    FIFA22 = 1
-    FIFA23 = 2
-    FIFA24 = 3
-    FIFA25 = 4
+    FIFA21 = 21
+    FIFA22 = 22
+    FIFA23 = 23
+    FIFA24 = 24
+    FIFA25 = 25
