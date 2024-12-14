@@ -1,12 +1,12 @@
 import asyncio
+from importlib import import_module
 
 import uvicorn
 import uvloop
 from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 
-from src.api.bot.commands import set_bot_commands
-from src.api.bot.handler import router as bot_router
+from src.api.bot.representation import set_bot_representation
 from src.config import settings
 
 asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
@@ -18,8 +18,6 @@ bot = Bot(settings.BOT_TOKEN, default=DefaultBotProperties(parse_mode='HTML'))
 
 async def main():
     """Run ASGI server with uvicorn and run bot dispatcher."""
-    await set_bot_commands(bot)
-
     config = uvicorn.Config(
         app='src.config.asgi:application',
         host='0.0.0.0',
@@ -29,15 +27,16 @@ async def main():
     server = uvicorn.Server(config)
 
     server_future = server.serve()
-    bot_future = dispatcher.start_polling(bot)
-    configure_bot_router()
+    bot_future = configure_bot()
 
     await asyncio.gather(server_future, bot_future)
 
 
-def configure_bot_router():
+async def configure_bot():
     """Add bot router to dispatcher."""
-    dispatcher.include_router(bot_router)
+    dispatcher.include_router(import_module('src.api.bot.handler').router)
+    await set_bot_representation(bot)
+    await dispatcher.start_polling(bot)
 
 
 if __name__ == '__main__':

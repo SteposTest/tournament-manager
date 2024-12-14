@@ -40,7 +40,8 @@ LOGGING = {
             '()': 'src.utils.log_formatter.LogFormatter',
             'formatter_mode': FormatterMode.COMPACT,
             'limit_keys_to': ['call_id', 'input_data', 'result', 'function_full_name'],
-            'format': '%(asctime)s %(levelname)s %(message)s',
+            'format': '%(asctime)s.%(msecs)03d %(levelname)s %(message)s',
+            'datefmt': '%Y-%m-%d %H:%M:%S',
         },
     },
     'handlers': {
@@ -57,6 +58,7 @@ LOGGING = {
         'root': {
             'level': LOGGING_LEVEL,
             'handlers': ['console'],
+            'propagate': True,
         },
         VERBOSE_LOGGER_NAME: {
             'level': LOGGING_LEVEL,

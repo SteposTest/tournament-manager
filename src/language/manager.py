@@ -6,7 +6,7 @@ import yaml
 from django.conf import settings
 
 from src.config.settings import LANGUAGE_PACKAGES_PATH
-from src.language.models import BotPhrases, BotCommandsDescription
+from src.language.models import BotPhrases, BotRepresentation
 
 
 def get_available_languages_codes() -> List[str]:
@@ -29,17 +29,17 @@ def get_bot_phrases(language_code: str | None) -> BotPhrases:
 
 
 @lru_cache()
-def get_bot_commands_description(language_code: str | None) -> BotCommandsDescription:
+def get_bot_representation_pack(language_code: str | None) -> BotRepresentation:
     """
-    Builds and returns an BotCommandsDescription object with bot phrases in the specified language, if any.
+    Builds and returns an BotCommandsRepresentation object with bot phrases in the specified language, if any.
 
     By default, the language is Russian.
     """
     package_yaml = _get_language_pack(
         language_code=language_code,
-        package_name='bot_commands',
+        package_name='bot_representation',
     )
-    return BotCommandsDescription(**package_yaml)
+    return BotRepresentation(**package_yaml)
 
 
 def _get_language_pack(language_code: str | None, package_name: str) -> dict:

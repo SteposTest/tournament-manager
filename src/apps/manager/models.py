@@ -14,6 +14,7 @@ class CustomUser(AbstractUser):
     telegram_username = models.CharField(max_length=64, unique=True)
     is_admin = models.BooleanField(default=False)
     timezone = models.CharField(max_length=32, default='UTC')
+
     victories = models.PositiveIntegerField(default=0)
     losses = models.PositiveIntegerField(default=0)
     draws = models.PositiveIntegerField(default=0)
@@ -88,19 +89,11 @@ class Game(models.Model):
 
     def get_player_team_and_score(self, player: 'CustomUser') -> 'Team':
         """Return player team."""
-        return (
-            self.first_player_team
-            if self._is_first_player(player)
-            else self.second_player_team
-        )
+        return self.first_player_team if self._is_first_player(player) else self.second_player_team
 
     def get_player_score(self, player: 'CustomUser') -> int:
         """Return player score."""
-        return (
-            self.first_player_score
-            if self._is_first_player(player)
-            else self.second_player_score
-        )
+        return self.first_player_score if self._is_first_player(player) else self.second_player_score
 
     def _is_first_player(self, player: 'CustomUser') -> bool:
         return player == self.first_player

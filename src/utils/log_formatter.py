@@ -80,9 +80,7 @@ class LogFormatter(logging.Formatter):
             except TypeError:
                 prepared_value = j
 
-            result += (
-                f'{self.separator}{str(i).upper().replace('_', ' ')}:\n{prepared_value}'
-            )
+            result += f'{self.separator}{str(i).upper().replace('_', ' ')}:\n{prepared_value}'
 
         result += self.separator
 
