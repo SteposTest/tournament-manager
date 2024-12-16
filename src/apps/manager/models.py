@@ -11,9 +11,12 @@ class CustomUser(AbstractUser):
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     nickname = models.CharField(max_length=64, blank=True, null=True)
-    telegram_username = models.CharField(max_length=64, unique=True)
     is_admin = models.BooleanField(default=False)
     timezone = models.CharField(max_length=32, default='UTC')
+
+    telegram_user_id = models.IntegerField(blank=True, null=True)
+    telegram_chat_id = models.IntegerField(blank=True, null=True)
+    telegram_username = models.CharField(max_length=64, unique=True)
 
     victories = models.PositiveIntegerField(default=0)
     losses = models.PositiveIntegerField(default=0)
@@ -40,6 +43,7 @@ class Tournament(models.Model):
     """Tournament model."""
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    is_active = models.BooleanField(default=True)
     name = models.CharField(max_length=128)
     rules_url = models.URLField()
     start_date = models.DateField()
