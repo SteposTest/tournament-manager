@@ -28,6 +28,9 @@ async def set_bot_representation(bot: Bot):
 async def _set_bot_commands(bot: Bot, commands_pack: BotRepresentation, language_code: str):
     commands = []
     for command in commands_pack.model_fields:
+        if 'description' in command:
+            continue
+
         commands.append(
             BotCommand(
                 command=f'/{command}',

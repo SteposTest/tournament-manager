@@ -85,7 +85,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
-ALLOWED_HOSTS = [os.getenv('MAIN_HOST')]
+ALLOWED_HOSTS = [i for i in os.getenv('ALLOWED_HOSTS', '').split(':') if i != '']
 
 INSTALLED_APPS = [
     'django.contrib.admin',

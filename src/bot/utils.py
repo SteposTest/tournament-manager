@@ -46,6 +46,13 @@ async def build_main_reply_keyboard(internal_user: InternalUser | None, bot_phra
     )
 
 
+async def get_internal_user_with_language_pack(telegram_user: TelegramUser) -> tuple[InternalUser, BotPhrases]:
+    """Find and return InternalUser and BotPhrases."""
+    bot_phrases = get_bot_phrases(telegram_user.language_code)
+    internal_user = await InternalUser.objects.filter(telegram_username=telegram_user.username).afirst()
+    return internal_user, bot_phrases
+
+
 def _format_buttons(all_buttons: list[KeyboardButton]) -> list[list[KeyboardButton]]:
     formated_buttons = []
     while all_buttons:
@@ -56,10 +63,3 @@ def _format_buttons(all_buttons: list[KeyboardButton]) -> list[list[KeyboardButt
         formated_buttons.append(buttons_line)
 
     return formated_buttons
-
-
-async def get_internal_user_with_language_pack(telegram_user: TelegramUser) -> tuple[InternalUser, BotPhrases]:
-    """Find and return InternalUser and BotPhrases."""
-    bot_phrases = get_bot_phrases(telegram_user.language_code)
-    internal_user = await InternalUser.objects.filter(telegram_username=telegram_user.username).afirst()
-    return internal_user, bot_phrases

@@ -4,18 +4,20 @@ from aiogram import Router
 from aiogram.filters import CommandStart
 from aiogram.types import Message, CallbackQuery
 
-from src.api.bot.impl.bot_controller import pass_message_to_handler, pass_query_to_handler
-from src.api.bot.impl.callbacks import QuestionCallback
-from src.api.bot.impl.utils import build_main_reply_keyboard, get_internal_user_with_language_pack
+from src.bot.callbacks import QuestionCallback
+from src.bot.utils import build_main_reply_keyboard, get_internal_user_with_language_pack
 from src.config import settings
 from src.utils.log import async_log
+from src.bot.bot_controller import get_bot_controller
 
 router = Router()
 logger = logging.getLogger(settings.LOGGER_NAME)
 
+bot_controller = get_bot_controller()
 
-@async_log(lvl=logging.INFO)
+
 @router.message(CommandStart())
+@async_log(lvl=logging.INFO)
 async def command_start_handler(message: Message) -> None:
     """This handler receives messages with `/start` command."""
     internal_user, bot_phrases = await get_internal_user_with_language_pack(message.from_user)
@@ -33,10 +35,10 @@ async def command_start_handler(message: Message) -> None:
 @router.message()
 async def base_handler(message: Message) -> None:
     """This handler receives all messages."""
-    await pass_message_to_handler(message)
+    await bot_controller.pass_message_to_processor(message)
 
 
 @router.callback_query(QuestionCallback.filter)
 async def handle_question_callback(query: CallbackQuery):
     """Process registration choice."""
-    await pass_query_to_handler(query)
+    await bot_controller.pass_query_to_processor(query)

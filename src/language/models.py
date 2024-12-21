@@ -7,6 +7,7 @@ class BotPhrases(BaseModel):
     yes_btn: str
     no_btn: str
     wrong_btn_pressing: str
+    wrong_msg: list[str]
 
     welcome_msg: str
     user_not_found: str
@@ -24,10 +25,11 @@ class BotPhrases(BaseModel):
     reg_nickname_request: str
     reg_nickname_request_again: str
     reg_nickname_in_use: str
-    reg_confirm: str
+    reg_nickname_confirm: str
     reg_reject_btn: str
     reg_reject: str
     reg_done: str
+    reg_after: str
 
 
 class BotRepresentation(BaseModel):
@@ -37,4 +39,3 @@ class BotRepresentation(BaseModel):
     description: str
 
     start: str
-    registrate: str

@@ -13,7 +13,7 @@ asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
 dispatcher = Dispatcher()
 
-bot = Bot(settings.BOT_TOKEN, default=DefaultBotProperties(parse_mode='HTML'))
+telegram_bot = Bot(settings.BOT_TOKEN, default=DefaultBotProperties(parse_mode='HTML'))
 
 
 async def main():
@@ -35,8 +35,8 @@ async def main():
 async def configure_bot():
     """Add bot router to dispatcher."""
     dispatcher.include_router(import_module('src.api.bot.handler').router)
-    await set_bot_representation(bot)
-    await dispatcher.start_polling(bot)
+    await set_bot_representation(telegram_bot)
+    await dispatcher.start_polling(telegram_bot)
 
 
 if __name__ == '__main__':

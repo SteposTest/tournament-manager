@@ -11,8 +11,19 @@ class CustomUserAdmin(admin.ModelAdmin):
     add_form = CustomUserCreationForm
     form = CustomUserChangeForm
     model = CustomUser
-    list_display = ['username', 'telegram_username']
-    search_fields = ['username', 'telegram_username']
+    list_display = [
+        'id',
+        'username',
+        'nickname',
+        'telegram_username',
+        'is_admin',
+        'timezone',
+        'victories',
+        'losses',
+        'draws',
+        'fifa_versions',
+    ]
+    search_fields = ['username', 'nickname', 'telegram_username', 'is_admin', 'telegram_user_id', 'telegram_chat_id']
 
 
 @admin.register(Team)
