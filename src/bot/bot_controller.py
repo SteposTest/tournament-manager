@@ -25,6 +25,7 @@ class BotController:
         self.state_controller = StateController()
 
         self.registration_processor = processors.RegistrationProcessor(self.state_controller)
+        self.team_choosing_process = processors.TeamChoosingProcessor(self.state_controller)
 
     async def pass_message_to_processor(self, message: Message) -> None:
         """Find a processor and send a message to it."""
@@ -85,6 +86,7 @@ class BotController:
 
         new_state = self.state_controller.get_state(state.chat_id)
         if new_state and new_state.is_complete:
+            await self._update_messages(query.message.chat.id, query.bot)
             self.state_controller.delete_state(state.chat_id)
 
     async def _get_processor(
@@ -96,6 +98,8 @@ class BotController:
         match process or message:
             case ProcessName.REGISTRATION.value | bot_phrases.registrate_btn:
                 return self.registration_processor
+            case ProcessName.TEAM_CHOOSING.value | bot_phrases.generate_teams_btn:
+                return self.team_choosing_process
             case _:
                 obj_description = f'process "{process}"' if process else f'message "{message}"'
                 raise exceptions.ProcessHandlerNotFound(f'Handler for {obj_description} not found.')
@@ -116,17 +120,19 @@ class BotController:
                 updated_messages.append(message_id)
                 continue
 
-            await bot.edit_message_reply_markup(
-                chat_id=state.chat_id,
-                message_id=message_id,
-                reply_markup=msg_new_data.inline_markup,
-            )
+            if msg_new_data.remove_markup:
+                await bot.edit_message_reply_markup(
+                    chat_id=state.chat_id,
+                    message_id=message_id,
+                    reply_markup=None,
+                )
 
             if msg_new_data.text is not None:
                 await bot.edit_message_text(
                     chat_id=state.chat_id,
                     message_id=message_id,
                     text=msg_new_data.text,
+                    parse_mode='MarkdownV2',
                 )
 
             updated_messages.append(message_id)

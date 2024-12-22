@@ -4,7 +4,7 @@ from aiogram import Router
 from aiogram.filters import CommandStart
 from aiogram.types import Message, CallbackQuery
 
-from src.bot.callbacks import QuestionCallback
+from src.bot.callbacks import QuestionCallback, NumericCallback
 from src.bot.utils import build_main_reply_keyboard, get_internal_user_with_language_pack
 from src.config import settings
 from src.utils.log import async_log
@@ -40,5 +40,11 @@ async def base_handler(message: Message) -> None:
 
 @router.callback_query(QuestionCallback.filter)
 async def handle_question_callback(query: CallbackQuery):
+    """Process registration choice."""
+    await bot_controller.pass_query_to_processor(query)
+
+
+@router.callback_query(NumericCallback.filter)
+async def handle_numeric_callback(query: CallbackQuery):
     """Process registration choice."""
     await bot_controller.pass_query_to_processor(query)

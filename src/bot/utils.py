@@ -14,7 +14,7 @@ async def build_main_reply_keyboard(internal_user: InternalUser | None, bot_phra
     get_tournament_table_btn = KeyboardButton(text=bot_phrases.get_tournament_table_btn)
     get_last_games_btn = KeyboardButton(text=bot_phrases.get_last_games_btn)
     get_future_games_btn = KeyboardButton(text=bot_phrases.get_future_games_btn)
-    get_site_link = KeyboardButton(text=bot_phrases.get_site_link)
+    get_site_link = KeyboardButton(text=bot_phrases.get_site_link_btn)
 
     all_buttons = [generate_teams_btn]
     if internal_user is not None:

@@ -5,10 +5,11 @@ class ChoiceEnum(IntEnum):
     """Base enum class for int fields."""
 
     @classmethod
-    def choices(cls):
+    def choices(cls, with_unknown=True):
         """Return list of choices."""
         result = tuple((i.value, i.name) for i in cls)
-        result += ((None, 'UNKNOWN'),)
+        if with_unknown:
+            result += ((None, 'UNKNOWN'),)
         return result
 
     @classmethod

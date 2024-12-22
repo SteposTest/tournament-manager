@@ -25,6 +25,7 @@ class RegistrationProcessor(BaseProcessor):
         chat_id = message.chat.id if message else query.message.chat.id
         state = self.state_controller.get_state(chat_id)
         if state is None:
+            await message.answer(bot_phrases.reg_nickname_request)
             self.state_controller.create_state(
                 chat_id=chat_id,
                 state=StateModel(
@@ -33,7 +34,6 @@ class RegistrationProcessor(BaseProcessor):
                     process_phase=ProcessPhase.REG_EXPECT_NICKNAME,
                 ),
             )
-            await message.answer(bot_phrases.reg_nickname_request)
             return
 
         match state.process_phase:
@@ -71,7 +71,7 @@ class RegistrationProcessor(BaseProcessor):
                     chat_id,
                     MessageNewData(
                         message_id=nickname_confirm_msg.message_id,
-                        inline_markup=None,
+                        remove_markup=True,
                     ),
                 )
 

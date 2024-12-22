@@ -11,6 +11,8 @@ class BotPhrases(BaseModel):
 
     welcome_msg: str
     user_not_found: str
+    answer: str
+    team_description: str
 
     input_field_placeholder: str
     registrate_btn: str
@@ -20,7 +22,7 @@ class BotPhrases(BaseModel):
     get_tournament_table_btn: str
     get_last_games_btn: str
     get_future_games_btn: str
-    get_site_link: str
+    get_site_link_btn: str
 
     reg_nickname_request: str
     reg_nickname_request_again: str
@@ -30,6 +32,13 @@ class BotPhrases(BaseModel):
     reg_reject: str
     reg_done: str
     reg_after: str
+
+    tc_players_count_request: str
+    tc_rating_request: str
+    tc_teams_country_request: str
+    tc_teams_country_never_mind_btn: str
+    tc_done: str
+    tc_first_round_pairs: str
 
 
 class BotRepresentation(BaseModel):

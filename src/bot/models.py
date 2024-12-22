@@ -1,7 +1,6 @@
 from enum import Enum
 from typing import Any
 
-from aiogram.types import InlineKeyboardMarkup
 from pydantic import BaseModel
 
 
@@ -9,6 +8,7 @@ class ProcessName(str, Enum):
     """Processes declaration."""
 
     REGISTRATION = 'REGISTRATION'
+    TEAM_CHOOSING = 'TEAM_CHOOSING'
 
 
 class ProcessPhase(str, Enum):
@@ -17,12 +17,16 @@ class ProcessPhase(str, Enum):
     REG_EXPECT_NICKNAME = 'waiting_for_nickname'
     REG_EXPECT_CONFIRM = 'waiting_for_confirm'
 
+    TC_EXPECT_PLAYERS_COUNT = 'waiting_for_player_count'
+    TC_EXPECT_TEAM_RATING = 'waiting_for_team_rating'
+    TC_EXPECT_TEAM_COUNTRY = 'waiting_for_country'
+
 
 class MessageNewData(BaseModel):
     """Model for changing messages."""
 
     message_id: int
-    inline_markup: InlineKeyboardMarkup | None = None
+    remove_markup: bool = False
     text: str | None = None
     remove: bool = False
     update_on_completion_only: bool = False
