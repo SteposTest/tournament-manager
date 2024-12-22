@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from src.apps.manager.forms import CustomUserChangeForm, CustomUserCreationForm
-from src.apps.manager.models import CustomUser, Team, Tournament, Game
+from src.apps.manager.forms import CustomUserChangeForm, CustomUserCreationForm, TeamForm
+from src.apps.manager.models import CustomUser, Team, Tournament, Game, League
 
 
 @admin.register(CustomUser)
@@ -12,7 +12,6 @@ class CustomUserAdmin(admin.ModelAdmin):
     form = CustomUserChangeForm
     model = CustomUser
     list_display = [
-        'id',
         'username',
         'nickname',
         'telegram_username',
@@ -30,9 +29,19 @@ class CustomUserAdmin(admin.ModelAdmin):
 class TeamAdmin(admin.ModelAdmin):
     """Admin model for Team."""
 
-    list_display = ('name', 'rating', 'attack', 'midfield', 'defense')
-    list_filter = ('country', 'fifa_version')
-    search_fields = ('name', 'country', 'fifa_version')
+    form = TeamForm
+
+    list_display = ('name', 'general', 'rating', 'attack', 'midfield', 'defense', 'fifa_version')
+    list_filter = ('fifa_version', 'league')
+    search_fields = ('name', 'fifa_version', 'rating')
+
+
+@admin.register(League)
+class LeagueAdmin(admin.ModelAdmin):
+    """Admin model for League."""
+
+    list_display = ('name', 'country')
+    search_fields = ('country',)
 
 
 @admin.register(Tournament)

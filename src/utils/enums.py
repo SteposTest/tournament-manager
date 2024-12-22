@@ -1,22 +1,57 @@
 from enum import IntEnum
 
 
-class BaseFieldEnum(IntEnum):
+class ChoiceEnum(IntEnum):
     """Base enum class for int fields."""
 
     @classmethod
     def choices(cls):
         """Return list of choices."""
-        return tuple((i.name, i.value) for i in cls)
+        result = tuple((i.value, i.name) for i in cls)
+        result += ((None, 'UNKNOWN'),)
+        return result
+
+    @classmethod
+    def from_string(cls, country_name: str):
+        """Convert string to enum member."""
+        for member in cls:
+            if member.name.lower() == country_name.lower().replace(' ', '_'):
+                return member
+        raise ValueError(f'Country "{country_name}" not found in Countries.')
 
 
-class Countries(BaseFieldEnum):
+class Country(ChoiceEnum):
     """List of countries."""
 
-    ENGLAND = 0
+    SPAIN = 0
+    ENGLAND = 1
+    FRANCE = 2
+    GERMANY = 3
+    ITALY = 4
+    USA = 5
+    TURKEY = 6
+    PORTUGAL = 7
+    SAUDI_ARABIA = 8
+    SOUTH_AMERICA = 9
+    NETHERLANDS = 10
+    ARGENTINA = 11
+    BELGIUM = 12
+    SCOTLAND = 13
+    DENMARK = 14
+    AUSTRIA = 15
+    SWITZERLAND = 16
+    POLAND = 17
+    SOUTH_KOREA = 18
+    SWEDEN = 19
+    NORWAY = 20
+    CHINA = 21
+    ROMANIA = 22
+    AUSTRALIA = 23
+    INDIA = 24
+    REPUBLIC_OF_IRELAND = 25
 
 
-class FIFAVersion(BaseFieldEnum):
+class FIFAVersion(ChoiceEnum):
     """List of FIFA versions."""
 
     FIFA21 = 21

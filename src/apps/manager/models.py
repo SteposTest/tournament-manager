@@ -3,7 +3,7 @@ import uuid
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-from src.utils.enums import Countries, FIFAVersion
+from src.utils.enums import Country, FIFAVersion
 
 
 class CustomUser(AbstractUser):
@@ -108,12 +108,29 @@ class Team(models.Model):
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=128)
-    country = models.IntegerField(choices=Countries.choices)
+    league = models.ForeignKey(to='League', on_delete=models.CASCADE, related_name='teams')
+    img_url = models.URLField(blank=True, null=True)
     fifa_version = models.IntegerField(choices=FIFAVersion.choices)
-    rating = models.PositiveIntegerField()
+    rating = models.FloatField()
     attack = models.PositiveIntegerField()
     midfield = models.PositiveIntegerField()
     defense = models.PositiveIntegerField()
+    general = models.PositiveIntegerField()
+
+    @property
+    def country(self) -> Country | None:
+        """Take the country from the team league and return."""
+        country = self.league.country
+        if country is not None:
+            return Country(country)
 
     def __str__(self):
-        return f'{self.name} - {self.get_country_display()}'
+        return f'{self.name} - {self.country if self.country is not None else "Unknown country"}'
+
+
+class League(models.Model):
+    """League model."""
+
+    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    name = models.CharField(max_length=128)
+    country = models.IntegerField(choices=Country.choices, blank=True, null=True)
