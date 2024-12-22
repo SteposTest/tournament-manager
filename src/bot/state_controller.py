@@ -1,4 +1,5 @@
 from typing import Any
+from uuid import UUID
 
 from src.bot.models import StateModel, MessageNewData, ProcessPhase
 
@@ -22,6 +23,7 @@ class StateController:
         chat_id: int,
         process_phase: ProcessPhase | None = None,
         is_query: bool | None = None,
+        teams_by_filter_ids: list[UUID] | None = None,
         payload: Any | None = None,
         is_complete: bool | None = None,
     ) -> None:
@@ -33,6 +35,7 @@ class StateController:
             process_phase=process_phase if process_phase else current_state.process_phase,
             is_query=is_query if is_query else current_state.is_query,
             payload=payload if payload else current_state.payload,
+            teams_by_filter_ids=teams_by_filter_ids if teams_by_filter_ids else current_state.teams_by_filter_ids,
             messages_to_update=current_state.messages_to_update,
             is_complete=is_complete if is_complete else current_state.is_complete,
         )
@@ -47,8 +50,11 @@ class StateController:
     def remove_messages_from_update(self, chat_id: int, *messages_ids: int) -> None:
         """Remove MessageNewData objects from messages_to_update."""
         state = self.get_state(chat_id)
+        messages_to_update = state.messages_to_update
         for message_id in messages_ids:
-            state.messages_to_update.pop(message_id)
+            messages_to_update.pop(message_id)
+
+        state.messages_to_update = messages_to_update
 
     def delete_state(self, chat_id: int) -> None:
         """Delete state by chat_id."""

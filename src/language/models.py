@@ -12,6 +12,7 @@ class BotPhrases(BaseModel):
     welcome_msg: str
     user_not_found: str
     answer: str
+    unknown: str
     team_description: str
 
     input_field_placeholder: str
@@ -34,9 +35,14 @@ class BotPhrases(BaseModel):
     reg_after: str
 
     tc_players_count_request: str
-    tc_rating_request: str
+    tc_is_teams_country_needed: str
     tc_teams_country_request: str
-    tc_teams_country_never_mind_btn: str
+    tc_rating_request: str
+    tc_teams_country_nvrmind_btn: str
+    tc_teams_country: str
+    tc_change_team_btn: str
+    tc_teams_confirm_question: str
+    tc_updating_is_unavailable: str
     tc_done: str
     tc_first_round_pairs: str
 

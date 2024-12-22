@@ -24,6 +24,6 @@ remove-db-vol:
 recreate-db-vol: remove-db-vol create-db-vol
 
 check:
-	pipenv run format
+	pipenv run format-check
 	@echo "$'\n'$'\n'------------------------ Run lint ------------------------"
 	pipenv run lint

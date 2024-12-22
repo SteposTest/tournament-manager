@@ -1,16 +1,5 @@
 [
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116325.png",
-    "name": "FC Barcelona",
-    "league": "Spain Liga F Femenina",
-    "attack": 84,
-    "midfield": 88,
-    "defense": 86,
-    "general": 86,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/10.png",
     "name": "Manchester City",
     "league": "England Premier League",
@@ -29,17 +18,6 @@
     "midfield": 85,
     "defense": 83,
     "general": 85,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116033.png",
-    "name": "Olympique Lyonnais",
-    "league": "France Division 1 Feminine",
-    "attack": 87,
-    "midfield": 83,
-    "defense": 84,
-    "general": 84,
     "rating": 5.0,
     "fifa_version": 24
   },
@@ -176,17 +154,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116034.png",
-    "name": "Paris Saint-Germain",
-    "league": "France Division 1 Feminine",
-    "attack": 84,
-    "midfield": 80,
-    "defense": 81,
-    "general": 81,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/18.png",
     "name": "Tottenham Hotspur",
     "league": "England Premier League",
@@ -204,17 +171,6 @@
     "attack": 83,
     "midfield": 81,
     "defense": 80,
-    "general": 81,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116280.png",
-    "name": "Juventus",
-    "league": "Rest of World Women",
-    "attack": 83,
-    "midfield": 80,
-    "defense": 81,
     "general": 81,
     "rating": 4.5,
     "fifa_version": 24
@@ -385,28 +341,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116333.png",
-    "name": "Levante UD",
-    "league": "Spain Liga F Femenina",
-    "attack": 82,
-    "midfield": 79,
-    "defense": 78,
-    "general": 79,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116327.png",
-    "name": "Atletico de Madrid",
-    "league": "Spain Liga F Femenina",
-    "attack": 81,
-    "midfield": 79,
-    "defense": 78,
-    "general": 79,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116311.png",
     "name": "Angel City FC",
     "league": "USA NWSL",
@@ -434,17 +368,6 @@
     "league": "Spain Primera Division",
     "attack": 79,
     "midfield": 80,
-    "defense": 78,
-    "general": 79,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116326.png",
-    "name": "Real Madrid",
-    "league": "Spain Liga F Femenina",
-    "attack": 78,
-    "midfield": 81,
     "defense": 78,
     "general": 79,
     "rating": 4.5,
@@ -605,17 +528,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116037.png",
-    "name": "Montpellier HSC",
-    "league": "France Division 1 Feminine",
-    "attack": 79,
-    "midfield": 77,
-    "defense": 78,
-    "general": 77,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/7.png",
     "name": "Everton",
     "league": "England Premier League",
@@ -688,17 +600,6 @@
     "attack": 77,
     "midfield": 80,
     "defense": 77,
-    "general": 77,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116035.png",
-    "name": "Paris FC",
-    "league": "France Division 1 Feminine",
-    "attack": 77,
-    "midfield": 80,
-    "defense": 74,
     "general": 77,
     "rating": 4.0,
     "fifa_version": 24
@@ -825,17 +726,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116334.png",
-    "name": "Madrid CFF",
-    "league": "Spain Liga F Femenina",
-    "attack": 78,
-    "midfield": 76,
-    "defense": 77,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/245.png",
     "name": "Ajax",
     "league": "Holland Eredivisie",
@@ -880,17 +770,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116036.png",
-    "name": "FC Fleury 91",
-    "league": "France Division 1 Feminine",
-    "attack": 77,
-    "midfield": 78,
-    "defense": 74,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/450.png",
     "name": "RC Celta de Vigo",
     "league": "Spain Primera Division",
@@ -930,17 +809,6 @@
     "attack": 77,
     "midfield": 76,
     "defense": 76,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116336.png",
-    "name": "Real Sociedad",
-    "league": "Spain Liga F Femenina",
-    "attack": 77,
-    "midfield": 76,
-    "defense": 75,
     "general": 76,
     "rating": 4.0,
     "fifa_version": 24
@@ -1331,17 +1199,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116337.png",
-    "name": "Sevilla FC",
-    "league": "Spain Liga F Femenina",
-    "attack": 76,
-    "midfield": 75,
-    "defense": 73,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116016.png",
     "name": "Everton",
     "league": "England Barclays WSL",
@@ -1358,17 +1215,6 @@
     "league": "Germany 1. Bundesliga",
     "attack": 76,
     "midfield": 74,
-    "defense": 74,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131362.png",
-    "name": "FC Roseng\u00e5rd",
-    "league": "Rest of World Women",
-    "attack": 75,
-    "midfield": 75,
     "defense": 74,
     "general": 74,
     "rating": 3.5,
@@ -1392,17 +1238,6 @@
     "attack": 75,
     "midfield": 74,
     "defense": 74,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131358.png",
-    "name": "Benfica",
-    "league": "Rest of World Women",
-    "attack": 75,
-    "midfield": 74,
-    "defense": 73,
     "general": 74,
     "rating": 3.5,
     "fifa_version": 24
@@ -1463,17 +1298,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116332.png",
-    "name": "UDG Tenerife",
-    "league": "Spain Liga F Femenina",
-    "attack": 74,
-    "midfield": 74,
-    "defense": 74,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116307.png",
     "name": "Orlando Pride",
     "league": "USA NWSL",
@@ -1491,17 +1315,6 @@
     "attack": 74,
     "midfield": 74,
     "defense": 74,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116328.png",
-    "name": "Athletic Club de Bilbao",
-    "league": "Spain Liga F Femenina",
-    "attack": 74,
-    "midfield": 74,
-    "defense": 73,
     "general": 74,
     "rating": 3.5,
     "fifa_version": 24
@@ -1540,34 +1353,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116416.png",
-    "name": "Le Havre AC",
-    "league": "France Division 1 Feminine",
-    "attack": 74,
-    "midfield": 73,
-    "defense": 74,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1039.png",
     "name": "Athletico Paranaense",
     "league": "CONMEBOL Libertadores",
     "attack": 74,
     "midfield": 72,
     "defense": 76,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131359.png",
-    "name": "Ajax",
-    "league": "Rest of World Women",
-    "attack": 73,
-    "midfield": 76,
-    "defense": 74,
     "general": 74,
     "rating": 3.5,
     "fifa_version": 24
@@ -1716,34 +1507,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116339.png",
-    "name": "Valencia CF",
-    "league": "Spain Liga F Femenina",
-    "attack": 75,
-    "midfield": 74,
-    "defense": 72,
-    "general": 73,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110832.png",
     "name": "Granada CF",
     "league": "Spain Primera Division",
     "attack": 75,
     "midfield": 73,
     "defense": 74,
-    "general": 73,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116042.png",
-    "name": "En Avant Guingamp",
-    "league": "France Division 1 Feminine",
-    "attack": 75,
-    "midfield": 73,
-    "defense": 72,
     "general": 73,
     "rating": 3.5,
     "fifa_version": 24
@@ -1980,17 +1749,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131361.png",
-    "name": "FC Zurich",
-    "league": "Rest of World Women",
-    "attack": 76,
-    "midfield": 72,
-    "defense": 72,
-    "general": 72,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110556.png",
     "name": "Genoa",
     "league": "Italy Serie A",
@@ -2008,17 +1766,6 @@
     "attack": 74,
     "midfield": 73,
     "defense": 72,
-    "general": 72,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116039.png",
-    "name": "Dijon FCO",
-    "league": "France Division 1 Feminine",
-    "attack": 74,
-    "midfield": 72,
-    "defense": 73,
     "general": 72,
     "rating": 3.5,
     "fifa_version": 24
@@ -2178,33 +1925,11 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131360.png",
-    "name": "Slavia Praha",
-    "league": "Rest of World Women",
-    "attack": 72,
-    "midfield": 70,
-    "defense": 74,
-    "general": 72,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/229.png",
     "name": "Anderlecht",
     "league": "Belgium Pro League",
     "attack": 72,
     "midfield": 70,
-    "defense": 71,
-    "general": 72,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116040.png",
-    "name": "Stade de Reims",
-    "league": "France Division 1 Feminine",
-    "attack": 71,
-    "midfield": 74,
     "defense": 71,
     "general": 72,
     "rating": 3.5,
@@ -2365,17 +2090,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131125.png",
-    "name": "FC Levante Las Planas",
-    "league": "Spain Liga F Femenina",
-    "attack": 73,
-    "midfield": 70,
-    "defense": 70,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/28.png",
     "name": "Hamburger SV",
     "league": "Germany 2. Bundesliga",
@@ -2393,17 +2107,6 @@
     "attack": 72,
     "midfield": 71,
     "defense": 71,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116044.png",
-    "name": "AS Saint-etienne",
-    "league": "France Division 1 Feminine",
-    "attack": 72,
-    "midfield": 71,
-    "defense": 70,
     "general": 71,
     "rating": 3.5,
     "fifa_version": 24
@@ -2519,17 +2222,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131363.png",
-    "name": "Glasgow City",
-    "league": "Rest of World Women",
-    "attack": 71,
-    "midfield": 70,
-    "defense": 70,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112387.png",
     "name": "Al Ahli",
     "league": "Saudi Pro League",
@@ -2580,17 +2272,6 @@
     "attack": 70,
     "midfield": 72,
     "defense": 70,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131219.png",
-    "name": "LOSC Lille",
-    "league": "France Division 1 Feminine",
-    "attack": 70,
-    "midfield": 71,
-    "defense": 72,
     "general": 71,
     "rating": 3.5,
     "fifa_version": 24
@@ -2684,17 +2365,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116338.png",
-    "name": "Sporting Club de Huelva",
-    "league": "Spain Liga F Femenina",
-    "attack": 69,
-    "midfield": 71,
-    "defense": 72,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1516.png",
     "name": "FC Midtjylland",
     "league": "Denmark Superliga",
@@ -2711,17 +2381,6 @@
     "league": "England Championship",
     "attack": 67,
     "midfield": 71,
-    "defense": 71,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116330.png",
-    "name": "Real Betis Balompie",
-    "league": "Spain Liga F Femenina",
-    "attack": 66,
-    "midfield": 73,
     "defense": 71,
     "general": 71,
     "rating": 3.5,
@@ -2970,17 +2629,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116038.png",
-    "name": "Girondins de Bordeaux",
-    "league": "France Division 1 Feminine",
-    "attack": 71,
-    "midfield": 68,
-    "defense": 70,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/68.png",
     "name": "FC Metz",
     "league": "France Ligue 1",
@@ -3157,17 +2805,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116340.png",
-    "name": "Villarreal CF",
-    "league": "Spain Liga F Femenina",
-    "attack": 69,
-    "midfield": 72,
-    "defense": 70,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110636.png",
     "name": "Fortuna Dusseldorf",
     "league": "Germany 2. Bundesliga",
@@ -3218,17 +2855,6 @@
     "attack": 69,
     "midfield": 71,
     "defense": 69,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131391.png",
-    "name": "Granada CF",
-    "league": "Spain Liga F Femenina",
-    "attack": 69,
-    "midfield": 71,
-    "defense": 68,
     "general": 70,
     "rating": 3.0,
     "fifa_version": 24
@@ -3570,17 +3196,6 @@
     "attack": 71,
     "midfield": 68,
     "defense": 70,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116331.png",
-    "name": "SD Eibar",
-    "league": "Spain Liga F Femenina",
-    "attack": 71,
-    "midfield": 68,
-    "defense": 69,
     "general": 69,
     "rating": 3.0,
     "fifa_version": 24
@@ -8192,336 +7807,6 @@
     "defense": 52,
     "general": 54,
     "rating": 0.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1318.png",
-    "name": "England",
-    "league": "International",
-    "attack": 86,
-    "midfield": 83,
-    "defense": 83,
-    "general": 85,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1354.png",
-    "name": "Portugal",
-    "league": "International",
-    "attack": 86,
-    "midfield": 84,
-    "defense": 83,
-    "general": 84,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1335.png",
-    "name": "France",
-    "league": "International",
-    "attack": 85,
-    "midfield": 85,
-    "defense": 83,
-    "general": 84,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1337.png",
-    "name": "Germany",
-    "league": "International",
-    "attack": 84,
-    "midfield": 83,
-    "defense": 84,
-    "general": 84,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1369.png",
-    "name": "Argentina",
-    "league": "International",
-    "attack": 85,
-    "midfield": 83,
-    "defense": 83,
-    "general": 83,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1362.png",
-    "name": "Spain",
-    "league": "International",
-    "attack": 81,
-    "midfield": 84,
-    "defense": 82,
-    "general": 83,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1343.png",
-    "name": "Italy",
-    "league": "International",
-    "attack": 80,
-    "midfield": 85,
-    "defense": 82,
-    "general": 83,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/105035.png",
-    "name": "Holland",
-    "league": "International",
-    "attack": 82,
-    "midfield": 80,
-    "defense": 83,
-    "general": 82,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1325.png",
-    "name": "Belgium",
-    "league": "International",
-    "attack": 81,
-    "midfield": 81,
-    "defense": 77,
-    "general": 81,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1328.png",
-    "name": "Croatia",
-    "league": "International",
-    "attack": 78,
-    "midfield": 82,
-    "defense": 78,
-    "general": 79,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1331.png",
-    "name": "Denmark",
-    "league": "International",
-    "attack": 76,
-    "midfield": 80,
-    "defense": 79,
-    "general": 79,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1353.png",
-    "name": "Poland",
-    "league": "International",
-    "attack": 80,
-    "midfield": 77,
-    "defense": 74,
-    "general": 78,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111111.png",
-    "name": "Morocco",
-    "league": "International",
-    "attack": 78,
-    "midfield": 75,
-    "defense": 79,
-    "general": 78,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1386.png",
-    "name": "Mexico",
-    "league": "International",
-    "attack": 77,
-    "midfield": 76,
-    "defense": 75,
-    "general": 77,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1352.png",
-    "name": "Norway",
-    "league": "International",
-    "attack": 91,
-    "midfield": 78,
-    "defense": 74,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111462.png",
-    "name": "Ghana",
-    "league": "International",
-    "attack": 77,
-    "midfield": 77,
-    "defense": 75,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1363.png",
-    "name": "Sweden",
-    "league": "International",
-    "attack": 77,
-    "midfield": 76,
-    "defense": 74,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1330.png",
-    "name": "Czech Republic",
-    "league": "International",
-    "attack": 75,
-    "midfield": 77,
-    "defense": 75,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1366.png",
-    "name": "Ukraine",
-    "league": "International",
-    "attack": 73,
-    "midfield": 77,
-    "defense": 73,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1359.png",
-    "name": "Scotland",
-    "league": "International",
-    "attack": 70,
-    "midfield": 76,
-    "defense": 76,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1387.png",
-    "name": "United States",
-    "league": "International",
-    "attack": 76,
-    "midfield": 75,
-    "defense": 74,
-    "general": 75,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1886.png",
-    "name": "Hungary",
-    "league": "International",
-    "attack": 76,
-    "midfield": 72,
-    "defense": 73,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1367.png",
-    "name": "Wales",
-    "league": "International",
-    "attack": 73,
-    "midfield": 74,
-    "defense": 73,
-    "general": 73,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1355.png",
-    "name": "Republic of Ireland",
-    "league": "International",
-    "attack": 71,
-    "midfield": 71,
-    "defense": 73,
-    "general": 72,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1341.png",
-    "name": "Iceland",
-    "league": "International",
-    "attack": 71,
-    "midfield": 70,
-    "defense": 71,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1356.png",
-    "name": "Romania",
-    "league": "International",
-    "attack": 70,
-    "midfield": 72,
-    "defense": 69,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1334.png",
-    "name": "Finland",
-    "league": "International",
-    "attack": 70,
-    "midfield": 70,
-    "defense": 67,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110081.png",
-    "name": "Northern Ireland",
-    "league": "International",
-    "attack": 66,
-    "midfield": 71,
-    "defense": 71,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111527.png",
-    "name": "Qatar",
-    "league": "International",
-    "attack": 68,
-    "midfield": 69,
-    "defense": 68,
-    "general": 68,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111473.png",
-    "name": "New Zealand",
-    "league": "International",
-    "attack": 67,
-    "midfield": 66,
-    "defense": 66,
-    "general": 67,
-    "rating": 2.5,
     "fifa_version": 24
   }
 ]

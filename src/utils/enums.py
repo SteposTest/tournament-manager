@@ -51,6 +51,10 @@ class Country(ChoiceEnum):
     INDIA = 24
     REPUBLIC_OF_IRELAND = 25
 
+    def get_readable_name(self) -> str:
+        """Return readable name."""
+        return self.name.replace('_', ' ').title()
+
 
 class FIFAVersion(ChoiceEnum):
     """List of FIFA versions."""

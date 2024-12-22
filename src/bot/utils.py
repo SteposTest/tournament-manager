@@ -46,6 +46,23 @@ async def build_main_reply_keyboard(internal_user: InternalUser | None, bot_phra
     )
 
 
+def digit_to_emoji(number: int) -> str:
+    """Format numbers to emoji."""
+    emoji = {
+        '0': '0️⃣',
+        '1': '1️⃣',
+        '2': '2️⃣',
+        '3': '3️⃣',
+        '4': '4️⃣',
+        '5': '5️⃣',
+        '6': '6️⃣',
+        '7': '7️⃣',
+        '8': '8️⃣',
+        '9': '9️⃣',
+    }
+    return ''.join(emoji.get(digit) for digit in str(number))
+
+
 async def get_internal_user_with_language_pack(telegram_user: TelegramUser) -> tuple[InternalUser, BotPhrases]:
     """Find and return InternalUser and BotPhrases."""
     bot_phrases = get_bot_phrases(telegram_user.language_code)

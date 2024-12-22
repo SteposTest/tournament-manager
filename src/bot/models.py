@@ -1,5 +1,6 @@
 from enum import Enum
 from typing import Any
+from uuid import UUID
 
 from pydantic import BaseModel
 
@@ -19,7 +20,7 @@ class ProcessPhase(str, Enum):
 
     TC_EXPECT_PLAYERS_COUNT = 'waiting_for_player_count'
     TC_EXPECT_TEAM_RATING = 'waiting_for_team_rating'
-    TC_EXPECT_TEAM_COUNTRY = 'waiting_for_country'
+    TC_EXPECT_TEAMS_CONFIRM = 'waiting_for_teams_confirm'
 
 
 class MessageNewData(BaseModel):
@@ -40,5 +41,6 @@ class StateModel(BaseModel):
     process_phase: ProcessPhase
     is_query: bool = False
     payload: Any | None = None
+    teams_by_filter_ids: list[UUID] | None = None
     messages_to_update: dict[int, MessageNewData] = {}
     is_complete: bool = False
