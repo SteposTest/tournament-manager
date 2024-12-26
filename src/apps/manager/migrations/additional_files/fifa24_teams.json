@@ -66,34 +66,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116010.png",
-    "name": "Chelsea",
-    "league": "England Barclays WSL",
-    "attack": 87,
-    "midfield": 82,
-    "defense": 83,
-    "general": 83,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/240.png",
     "name": "Atletico de Madrid",
     "league": "Spain Primera Division",
     "attack": 84,
     "midfield": 83,
     "defense": 82,
-    "general": 83,
-    "rating": 5.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116009.png",
-    "name": "Arsenal",
-    "league": "England Barclays WSL",
-    "attack": 84,
-    "midfield": 83,
-    "defense": 80,
     "general": 83,
     "rating": 5.0,
     "fifa_version": 24
@@ -231,39 +209,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116312.png",
-    "name": "San Diego Wave FC",
-    "league": "USA NWSL",
-    "attack": 84,
-    "midfield": 79,
-    "defense": 79,
-    "general": 80,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116017.png",
-    "name": "Manchester City",
-    "league": "England Barclays WSL",
-    "attack": 83,
-    "midfield": 81,
-    "defense": 79,
-    "general": 80,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116302.png",
-    "name": "Portland Thorns FC",
-    "league": "USA NWSL",
-    "attack": 83,
-    "midfield": 80,
-    "defense": 77,
-    "general": 80,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112172.png",
     "name": "RB Leipzig",
     "league": "Germany 1. Bundesliga",
@@ -341,17 +286,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116311.png",
-    "name": "Angel City FC",
-    "league": "USA NWSL",
-    "attack": 81,
-    "midfield": 78,
-    "defense": 75,
-    "general": 79,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/457.png",
     "name": "Real Sociedad",
     "league": "Spain Primera Division",
@@ -380,39 +314,6 @@
     "attack": 78,
     "midfield": 79,
     "defense": 79,
-    "general": 79,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116012.png",
-    "name": "Manchester United",
-    "league": "England Barclays WSL",
-    "attack": 77,
-    "midfield": 81,
-    "defense": 77,
-    "general": 79,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116300.png",
-    "name": "OL Reign",
-    "league": "USA NWSL",
-    "attack": 75,
-    "midfield": 79,
-    "defense": 80,
-    "general": 79,
-    "rating": 4.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116309.png",
-    "name": "Kansas City Current",
-    "league": "USA NWSL",
-    "attack": 75,
-    "midfield": 79,
-    "defense": 75,
     "general": 79,
     "rating": 4.5,
     "fifa_version": 24
@@ -506,28 +407,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116306.png",
-    "name": "Houston Dash",
-    "league": "USA NWSL",
-    "attack": 77,
-    "midfield": 75,
-    "defense": 78,
-    "general": 78,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116304.png",
-    "name": "Washington Spirit",
-    "league": "USA NWSL",
-    "attack": 83,
-    "midfield": 77,
-    "defense": 75,
-    "general": 77,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/7.png",
     "name": "Everton",
     "league": "England Premier League",
@@ -545,17 +424,6 @@
     "attack": 78,
     "midfield": 77,
     "defense": 78,
-    "general": 77,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116310.png",
-    "name": "NJ / NY Gotham FC",
-    "league": "USA NWSL",
-    "attack": 78,
-    "midfield": 77,
-    "defense": 77,
     "general": 77,
     "rating": 4.0,
     "fifa_version": 24
@@ -671,17 +539,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116305.png",
-    "name": "Chicago Red Stars",
-    "league": "USA NWSL",
-    "attack": 74,
-    "midfield": 76,
-    "defense": 77,
-    "general": 77,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/607.png",
     "name": "Al Ittihad",
     "league": "Saudi Pro League",
@@ -704,45 +561,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116015.png",
-    "name": "Aston Villa",
-    "league": "England Barclays WSL",
-    "attack": 78,
-    "midfield": 77,
-    "defense": 75,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/383.png",
-    "name": "Palmeiras",
-    "league": "CONMEBOL Libertadores",
-    "attack": 78,
-    "midfield": 77,
-    "defense": 74,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/245.png",
     "name": "Ajax",
     "league": "Holland Eredivisie",
     "attack": 78,
     "midfield": 76,
     "defense": 71,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116011.png",
-    "name": "Tottenham Hotspur",
-    "league": "England Barclays WSL",
-    "attack": 78,
-    "midfield": 75,
-    "defense": 78,
     "general": 76,
     "rating": 4.0,
     "fifa_version": 24
@@ -760,7 +584,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/326.png",
-    "name": "Fenerbah\u00e7e",
+    "name": "Fenerbahçe",
     "league": "Turkey Super Lig",
     "attack": 78,
     "midfield": 74,
@@ -809,17 +633,6 @@
     "attack": 77,
     "midfield": 76,
     "defense": 76,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1043.png",
-    "name": "Flamengo",
-    "league": "CONMEBOL Libertadores",
-    "attack": 77,
-    "midfield": 76,
-    "defense": 75,
     "general": 76,
     "rating": 4.0,
     "fifa_version": 24
@@ -875,17 +688,6 @@
     "attack": 76,
     "midfield": 76,
     "defense": 75,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116308.png",
-    "name": "Racing Louisville FC",
-    "league": "USA NWSL",
-    "attack": 76,
-    "midfield": 75,
-    "defense": 78,
     "general": 76,
     "rating": 4.0,
     "fifa_version": 24
@@ -979,17 +781,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116303.png",
-    "name": "North Carolina Courage",
-    "league": "USA NWSL",
-    "attack": 71,
-    "midfield": 75,
-    "defense": 76,
-    "general": 76,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112139.png",
     "name": "Al Nassr",
     "league": "Saudi Pro League",
@@ -1018,17 +809,6 @@
     "attack": 78,
     "midfield": 74,
     "defense": 72,
-    "general": 75,
-    "rating": 4.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1035.png",
-    "name": "Atletico Mineiro",
-    "league": "CONMEBOL Libertadores",
-    "attack": 77,
-    "midfield": 75,
-    "defense": 76,
     "general": 75,
     "rating": 4.0,
     "fifa_version": 24
@@ -1112,7 +892,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1861.png",
-    "name": "UD Almer\u00eda",
+    "name": "UD Almería",
     "league": "Spain Primera Division",
     "attack": 75,
     "midfield": 75,
@@ -1123,7 +903,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1968.png",
-    "name": "C\u00e1diz CF",
+    "name": "Cádiz CF",
     "league": "Spain Primera Division",
     "attack": 74,
     "midfield": 75,
@@ -1178,7 +958,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/327.png",
-    "name": "Be\u015fikta\u015f",
+    "name": "Beşiktaş",
     "league": "Turkey Super Lig",
     "attack": 77,
     "midfield": 75,
@@ -1194,17 +974,6 @@
     "attack": 77,
     "midfield": 73,
     "defense": 74,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116016.png",
-    "name": "Everton",
-    "league": "England Barclays WSL",
-    "attack": 76,
-    "midfield": 74,
-    "defense": 75,
     "general": 74,
     "rating": 3.5,
     "fifa_version": 24
@@ -1227,17 +996,6 @@
     "attack": 75,
     "midfield": 75,
     "defense": 73,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116013.png",
-    "name": "Brighton & Hove Albion",
-    "league": "England Barclays WSL",
-    "attack": 75,
-    "midfield": 74,
-    "defense": 74,
     "general": 74,
     "rating": 3.5,
     "fifa_version": 24
@@ -1298,17 +1056,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116307.png",
-    "name": "Orlando Pride",
-    "league": "USA NWSL",
-    "attack": 74,
-    "midfield": 74,
-    "defense": 74,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1943.png",
     "name": "AFC Bournemouth",
     "league": "England Premier League",
@@ -1337,39 +1084,6 @@
     "attack": 74,
     "midfield": 74,
     "defense": 73,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112472.png",
-    "name": "RB Bragantino",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 74,
-    "midfield": 73,
-    "defense": 75,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1039.png",
-    "name": "Athletico Paranaense",
-    "league": "CONMEBOL Libertadores",
-    "attack": 74,
-    "midfield": 72,
-    "defense": 76,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116014.png",
-    "name": "West Ham United",
-    "league": "England Barclays WSL",
-    "attack": 73,
-    "midfield": 74,
-    "defense": 75,
     "general": 74,
     "rating": 3.5,
     "fifa_version": 24
@@ -1419,19 +1133,8 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116343.png",
-    "name": "Liverpool",
-    "league": "England Barclays WSL",
-    "attack": 72,
-    "midfield": 74,
-    "defense": 74,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/31.png",
-    "name": "1. FC K\u00f6ln",
+    "name": "1. FC Köln",
     "league": "Germany 1. Bundesliga",
     "attack": 72,
     "midfield": 74,
@@ -1447,17 +1150,6 @@
     "attack": 72,
     "midfield": 73,
     "defense": 74,
-    "general": 74,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1048.png",
-    "name": "Internacional",
-    "league": "CONMEBOL Libertadores",
-    "attack": 71,
-    "midfield": 74,
-    "defense": 75,
     "general": 74,
     "rating": 3.5,
     "fifa_version": 24
@@ -1529,34 +1221,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1041.png",
-    "name": "Corinthians",
-    "league": "CONMEBOL Libertadores",
-    "attack": 74,
-    "midfield": 73,
-    "defense": 74,
-    "general": 73,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/76.png",
     "name": "RC Strasbourg",
     "league": "France Ligue 1",
     "attack": 74,
     "midfield": 73,
     "defense": 73,
-    "general": 73,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1053.png",
-    "name": "Santos",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 74,
-    "midfield": 73,
-    "defense": 72,
     "general": 73,
     "rating": 3.5,
     "fifa_version": 24
@@ -1672,19 +1342,8 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/598.png",
-    "name": "S\u00e3o Paulo",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 72,
-    "midfield": 73,
-    "defense": 73,
-    "general": 73,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110468.png",
-    "name": "Viktoria Plze\u0148",
+    "name": "Viktoria Plzeň",
     "league": "Rest of World",
     "attack": 72,
     "midfield": 73,
@@ -1761,21 +1420,10 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116003.png",
-    "name": "1. FC K\u00f6ln",
+    "name": "1. FC Köln",
     "league": "Germany Frauen-Bundesliga",
     "attack": 74,
     "midfield": 73,
-    "defense": 72,
-    "general": 72,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/567.png",
-    "name": "Fluminense",
-    "league": "CONMEBOL Libertadores",
-    "attack": 74,
-    "midfield": 72,
     "defense": 72,
     "general": 72,
     "rating": 3.5,
@@ -1805,7 +1453,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/819.png",
-    "name": "FC K\u00f8benhavn",
+    "name": "FC København",
     "league": "Denmark Superliga",
     "attack": 73,
     "midfield": 75,
@@ -1816,7 +1464,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101014.png",
-    "name": "Istanbul Ba\u015fak\u015fehir FK",
+    "name": "Istanbul Başakşehir FK",
     "league": "Turkey Super Lig",
     "attack": 73,
     "midfield": 72,
@@ -2046,34 +1694,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116020.png",
-    "name": "Leicester City",
-    "league": "England Barclays WSL",
-    "attack": 76,
-    "midfield": 70,
-    "defense": 70,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/900.png",
     "name": "BSC Young Boys",
     "league": "Switzerland Super League",
     "attack": 74,
     "midfield": 70,
     "defense": 70,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110981.png",
-    "name": "Barcelona SC Guayaquil",
-    "league": "CONMEBOL Libertadores",
-    "attack": 73,
-    "midfield": 71,
-    "defense": 69,
     "general": 71,
     "rating": 3.5,
     "fifa_version": 24
@@ -2112,28 +1738,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101105.png",
-    "name": "Millonarios",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 72,
-    "midfield": 70,
-    "defense": 71,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112908.png",
-    "name": "Independiente del Valle",
-    "league": "CONMEBOL Libertadores",
-    "attack": 71,
-    "midfield": 73,
-    "defense": 69,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111144.png",
     "name": "Seattle Sounders",
     "league": "USA Major League Soccer",
@@ -2156,34 +1760,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/517.png",
-    "name": "Botafogo",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 71,
-    "midfield": 72,
-    "defense": 70,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/463.png",
     "name": "Deportivo Alaves",
     "league": "Spain Primera Division",
     "attack": 71,
     "midfield": 72,
     "defense": 70,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111052.png",
-    "name": "Fortaleza",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 71,
-    "midfield": 71,
-    "defense": 72,
     "general": 71,
     "rating": 3.5,
     "fifa_version": 24
@@ -2201,7 +1783,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110395.png",
-    "name": "Lan\u00fas",
+    "name": "Lanús",
     "league": "Argentina Primera Division",
     "attack": 71,
     "midfield": 71,
@@ -2255,19 +1837,8 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111008.png",
-    "name": "Libertad",
-    "league": "CONMEBOL Libertadores",
-    "attack": 71,
-    "midfield": 64,
-    "defense": 71,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1887.png",
-    "name": "Vitoria de Guimar\u00e3es",
+    "name": "Vitoria de Guimarães",
     "league": "Portugal Primeira Liga",
     "attack": 70,
     "midfield": 72,
@@ -2322,7 +1893,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1874.png",
-    "name": "Ferencv\u00e1rosi TC",
+    "name": "Ferencvárosi TC",
     "league": "Rest of World",
     "attack": 70,
     "midfield": 70,
@@ -2349,17 +1920,6 @@
     "attack": 69,
     "midfield": 72,
     "defense": 70,
-    "general": 71,
-    "rating": 3.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA17/images/crest/5/light/110980.png",
-    "name": "Colo-Colo",
-    "league": "CONMEBOL Libertadores",
-    "attack": 69,
-    "midfield": 72,
-    "defense": 67,
     "general": 71,
     "rating": 3.5,
     "fifa_version": 24
@@ -2410,7 +1970,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/873.png",
-    "name": "Lech Pozna\u0144",
+    "name": "Lech Poznań",
     "league": "Poland Ekstraklasa",
     "attack": 73,
     "midfield": 70,
@@ -2437,17 +1997,6 @@
     "attack": 72,
     "midfield": 71,
     "defense": 67,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111010.png",
-    "name": "Alianza Lima",
-    "league": "CONMEBOL Libertadores",
-    "attack": 72,
-    "midfield": 70,
-    "defense": 71,
     "general": 70,
     "rating": 3.0,
     "fifa_version": 24
@@ -2486,28 +2035,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131283.png",
-    "name": "Bristol City",
-    "league": "England Barclays WSL",
-    "attack": 72,
-    "midfield": 68,
-    "defense": 69,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110986.png",
-    "name": "LDU Quito",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 71,
-    "midfield": 71,
-    "defense": 70,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111138.png",
     "name": "Minnesota United FC",
     "league": "USA Major League Soccer",
@@ -2520,7 +2047,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112809.png",
-    "name": "Famalic\u00e3o",
+    "name": "Famalicão",
     "league": "Portugal Primeira Liga",
     "attack": 71,
     "midfield": 70,
@@ -2530,34 +2057,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111325.png",
-    "name": "Nacional de Montevideo",
-    "league": "CONMEBOL Libertadores",
-    "attack": 71,
-    "midfield": 70,
-    "defense": 70,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/320.png",
-    "name": "Malm\u00f6 FF",
+    "name": "Malmö FF",
     "league": "Sweden Allsvenskan",
     "attack": 71,
     "midfield": 70,
     "defense": 70,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101103.png",
-    "name": "Independiente Medell\u00edn",
-    "league": "CONMEBOL Libertadores",
-    "attack": 71,
-    "midfield": 70,
-    "defense": 69,
     "general": 70,
     "rating": 3.0,
     "fifa_version": 24
@@ -2663,7 +2168,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111711.png",
-    "name": "Hurac\u00e1n",
+    "name": "Huracán",
     "league": "Argentina Primera Division",
     "attack": 70,
     "midfield": 71,
@@ -2739,17 +2244,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101100.png",
-    "name": "Atletico Nacional",
-    "league": "CONMEBOL Libertadores",
-    "attack": 70,
-    "midfield": 70,
-    "defense": 68,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/131386.png",
     "name": "1. FC Nurnberg",
     "league": "Germany Frauen-Bundesliga",
@@ -2817,7 +2311,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/918.png",
-    "name": "FK Bod\u00f8/Glimt",
+    "name": "FK Bodø/Glimt",
     "league": "Norway Eliteserien",
     "attack": 69,
     "midfield": 71,
@@ -2839,7 +2333,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111708.png",
-    "name": "Atletico Tucum\u00e1n",
+    "name": "Atletico Tucumán",
     "league": "Argentina Primera Division",
     "attack": 69,
     "midfield": 71,
@@ -2937,17 +2431,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101108.png",
-    "name": "Olimpia Asuncion",
-    "league": "CONMEBOL Libertadores",
-    "attack": 69,
-    "midfield": 69,
-    "defense": 69,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1952.png",
     "name": "Hull City",
     "league": "England Championship",
@@ -2992,17 +2475,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112001.png",
-    "name": "America Mineiro",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 67,
-    "midfield": 69,
-    "defense": 71,
-    "general": 70,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110580.png",
     "name": "Rosario Central",
     "league": "Argentina Primera Division",
@@ -3020,17 +2492,6 @@
     "attack": 78,
     "midfield": 70,
     "defense": 68,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101101.png",
-    "name": "Junior de Barranquilla",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 74,
-    "midfield": 70,
-    "defense": 69,
     "general": 69,
     "rating": 3.0,
     "fifa_version": 24
@@ -3080,17 +2541,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101110.png",
-    "name": "Pe\u00f1arol",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 72,
-    "midfield": 70,
-    "defense": 69,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111928.png",
     "name": "San Jose Earthquakes",
     "league": "USA Major League Soccer",
@@ -3108,17 +2558,6 @@
     "attack": 72,
     "midfield": 70,
     "defense": 66,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110975.png",
-    "name": "Universidad Catolica",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 72,
-    "midfield": 69,
-    "defense": 70,
     "general": 69,
     "rating": 3.0,
     "fifa_version": 24
@@ -3191,7 +2630,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/269.png",
-    "name": "Br\u00f8ndby IF",
+    "name": "Brøndby IF",
     "league": "Denmark Superliga",
     "attack": 71,
     "midfield": 68,
@@ -3267,34 +2706,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112744.png",
-    "name": "Deportivo Pereira",
-    "league": "CONMEBOL Libertadores",
-    "attack": 70,
-    "midfield": 69,
-    "defense": 70,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/100135.png",
     "name": "APOEL Nicosia FC",
     "league": "Rest of World",
     "attack": 70,
     "midfield": 69,
     "defense": 68,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111042.png",
-    "name": "Goi\u00e1s",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 70,
-    "midfield": 68,
-    "defense": 69,
     "general": 69,
     "rating": 3.0,
     "fifa_version": 24
@@ -3344,28 +2761,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111013.png",
-    "name": "Sporting Cristal",
-    "league": "CONMEBOL Libertadores",
-    "attack": 69,
-    "midfield": 70,
-    "defense": 70,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111014.png",
-    "name": "Universitario de Deportes",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 69,
-    "midfield": 70,
-    "defense": 69,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/113142.png",
     "name": "Alanyaspor",
     "league": "Turkey Super Lig",
@@ -3389,7 +2784,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/114326.png",
-    "name": "Rakow Cz\u0119stochowa",
+    "name": "Rakow Częstochowa",
     "league": "Poland Ekstraklasa",
     "attack": 69,
     "midfield": 69,
@@ -3410,34 +2805,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110984.png",
-    "name": "Emelec",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 69,
-    "midfield": 69,
-    "defense": 68,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/100761.png",
     "name": "FCSB",
     "league": "Romania Liga I",
     "attack": 69,
     "midfield": 69,
     "defense": 68,
-    "general": 69,
-    "rating": 3.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111722.png",
-    "name": "Deportes Tolima",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 69,
-    "midfield": 69,
-    "defense": 67,
     "general": 69,
     "rating": 3.0,
     "fifa_version": 24
@@ -3620,7 +2993,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/232.png",
-    "name": "Standard Li\u00e8ge",
+    "name": "Standard Liège",
     "league": "Belgium Pro League",
     "attack": 67,
     "midfield": 69,
@@ -3795,17 +3168,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112578.png",
-    "name": "\u00c1guilas Doradas Rionegro",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 69,
-    "midfield": 69,
-    "defense": 68,
-    "general": 68,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/417.png",
     "name": "Molde FK",
     "league": "Norway Eliteserien",
@@ -3823,17 +3185,6 @@
     "attack": 69,
     "midfield": 69,
     "defense": 67,
-    "general": 68,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111334.png",
-    "name": "Melgar FBC",
-    "league": "CONMEBOL Libertadores",
-    "attack": 69,
-    "midfield": 68,
-    "defense": 68,
     "general": 68,
     "rating": 2.5,
     "fifa_version": 24
@@ -3861,17 +3212,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111326.png",
-    "name": "Liverpool F\u00fatbol Club Uruguay",
-    "league": "CONMEBOL Libertadores",
-    "attack": 69,
-    "midfield": 68,
-    "defense": 67,
-    "general": 68,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/27.png",
     "name": "Hansa Rostock",
     "league": "Germany 2. Bundesliga",
@@ -3883,34 +3223,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101104.png",
-    "name": "Independiente Santa Fe",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 69,
-    "midfield": 67,
-    "defense": 69,
-    "general": 68,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1848.png",
     "name": "Bari",
     "league": "Italy Serie B",
     "attack": 69,
     "midfield": 67,
     "defense": 68,
-    "general": 68,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112716.png",
-    "name": "Cerro Porte\u00f1o",
-    "league": "CONMEBOL Libertadores",
-    "attack": 69,
-    "midfield": 67,
-    "defense": 66,
     "general": 68,
     "rating": 2.5,
     "fifa_version": 24
@@ -3972,7 +3290,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/710.png",
-    "name": "Djurg\u00e5rdens IF",
+    "name": "Djurgårdens IF",
     "league": "Sweden Allsvenskan",
     "attack": 68,
     "midfield": 69,
@@ -4005,7 +3323,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1788.png",
-    "name": "FC Nordsj\u00e6lland",
+    "name": "FC Nordsjælland",
     "league": "Denmark Superliga",
     "attack": 68,
     "midfield": 68,
@@ -4269,7 +3587,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/711.png",
-    "name": "BK H\u00e4cken",
+    "name": "BK Häcken",
     "league": "Sweden Allsvenskan",
     "attack": 66,
     "midfield": 69,
@@ -4400,28 +3718,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110978.png",
-    "name": "Cobresal",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 71,
-    "midfield": 67,
-    "defense": 65,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111329.png",
-    "name": "Guaran\u00ed (Paraguay)",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 71,
-    "midfield": 66,
-    "defense": 65,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/570.png",
     "name": "Ternana",
     "league": "Italy Serie B",
@@ -4466,34 +3762,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111011.png",
-    "name": "Cienciano",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 69,
-    "midfield": 68,
-    "defense": 66,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110746.png",
-    "name": "Pogo\u0144 Szczecin",
+    "name": "Pogoń Szczecin",
     "league": "Poland Ekstraklasa",
     "attack": 69,
     "midfield": 67,
     "defense": 67,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111328.png",
-    "name": "Palestino",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 69,
-    "midfield": 66,
-    "defense": 68,
     "general": 67,
     "rating": 2.5,
     "fifa_version": 24
@@ -4504,17 +3778,6 @@
     "league": "USA Major League Soccer",
     "attack": 69,
     "midfield": 66,
-    "defense": 67,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110969.png",
-    "name": "The Strongest",
-    "league": "CONMEBOL Libertadores",
-    "attack": 69,
-    "midfield": 65,
     "defense": 67,
     "general": 67,
     "rating": 2.5,
@@ -4576,17 +3839,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/114611.png",
-    "name": "Academia Puerto Cabello",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 68,
-    "midfield": 66,
-    "defense": 67,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/433.png",
     "name": "AIK",
     "league": "Sweden Allsvenskan",
@@ -4598,34 +3850,12 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110968.png",
-    "name": "Bol\u00edvar",
-    "league": "CONMEBOL Libertadores",
-    "attack": 68,
-    "midfield": 66,
-    "defense": 66,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101028.png",
     "name": "Hatayspor",
     "league": "Turkey Super Lig",
     "attack": 68,
     "midfield": 66,
     "defense": 65,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110987.png",
-    "name": "SD Aucas",
-    "league": "CONMEBOL Libertadores",
-    "attack": 68,
-    "midfield": 66,
-    "defense": 64,
     "general": 67,
     "rating": 2.5,
     "fifa_version": 24
@@ -4664,17 +3894,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110982.png",
-    "name": "Deportivo Cuenca",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 67,
-    "midfield": 68,
-    "defense": 66,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111817.png",
     "name": "Paris FC",
     "league": "France Ligue 2",
@@ -4692,28 +3911,6 @@
     "attack": 67,
     "midfield": 67,
     "defense": 67,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110998.png",
-    "name": "Danubio FC",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 67,
-    "midfield": 67,
-    "defense": 67,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112585.png",
-    "name": "\u00d1ublense",
-    "league": "CONMEBOL Libertadores",
-    "attack": 67,
-    "midfield": 67,
-    "defense": 66,
     "general": 67,
     "rating": 2.5,
     "fifa_version": 24
@@ -4742,7 +3939,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/310.png",
-    "name": "Rapid Bucure\u0219ti",
+    "name": "Rapid București",
     "league": "Romania Liga I",
     "attack": 67,
     "midfield": 65,
@@ -4807,19 +4004,8 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112184.png",
-    "name": "River Plate Montevideo",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 66,
-    "midfield": 68,
-    "defense": 66,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110075.png",
-    "name": "Farul Constan\u021ba",
+    "name": "Farul Constanța",
     "league": "Romania Liga I",
     "attack": 66,
     "midfield": 68,
@@ -4835,17 +4021,6 @@
     "attack": 66,
     "midfield": 68,
     "defense": 66,
-    "general": 67,
-    "rating": 2.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101109.png",
-    "name": "Defensor Sporting",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 66,
-    "midfield": 67,
-    "defense": 67,
     "general": 67,
     "rating": 2.5,
     "fifa_version": 24
@@ -5016,17 +4191,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/113029.png",
-    "name": "Universidad Cesar Vallejo",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 68,
-    "midfield": 66,
-    "defense": 67,
-    "general": 66,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110908.png",
     "name": "Catanzaro",
     "league": "Italy Serie B",
@@ -5094,7 +4258,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/299.png",
-    "name": "Lillestr\u00f8m SK",
+    "name": "Lillestrøm SK",
     "league": "Norway Eliteserien",
     "attack": 67,
     "midfield": 67,
@@ -5116,7 +4280,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111339.png",
-    "name": "Kas\u0131mpa\u015fa",
+    "name": "Kasımpaşa",
     "league": "Turkey Super Lig",
     "attack": 67,
     "midfield": 66,
@@ -5140,28 +4304,6 @@
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111088.png",
     "name": "Radomiak Radom",
     "league": "Poland Ekstraklasa",
-    "attack": 67,
-    "midfield": 66,
-    "defense": 66,
-    "general": 66,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110990.png",
-    "name": "Deportivo T\u00e1chira",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 67,
-    "midfield": 66,
-    "defense": 66,
-    "general": 66,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110989.png",
-    "name": "Caracas FC",
-    "league": "CONMEBOL Sudamericana",
     "attack": 67,
     "midfield": 66,
     "defense": 66,
@@ -5225,19 +4367,8 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112707.png",
-    "name": "Magallanes",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 66,
-    "midfield": 66,
-    "defense": 66,
-    "general": 66,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112499.png",
-    "name": "Feralpisal\u00f2",
+    "name": "Feralpisalò",
     "league": "Italy Serie B",
     "attack": 66,
     "midfield": 66,
@@ -5281,7 +4412,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110749.png",
-    "name": "Zag\u0142\u0119bie Lubin",
+    "name": "Zagłębie Lubin",
     "league": "Poland Ekstraklasa",
     "attack": 66,
     "midfield": 66,
@@ -5379,19 +4510,8 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110993.png",
-    "name": "Monagas Sport Club",
-    "league": "CONMEBOL Libertadores",
-    "attack": 65,
-    "midfield": 67,
-    "defense": 66,
-    "general": 66,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110394.png",
-    "name": "Arsenal de Sarand\u00ed",
+    "name": "Arsenal de Sarandí",
     "league": "Argentina Primera Division",
     "attack": 65,
     "midfield": 67,
@@ -5501,7 +4621,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/920.png",
-    "name": "V\u00e5lerenga Fotball",
+    "name": "Vålerenga Fotball",
     "league": "Norway Eliteserien",
     "attack": 64,
     "midfield": 67,
@@ -5534,21 +4654,10 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110745.png",
-    "name": "Jagiellonia Bia\u0142ystok",
+    "name": "Jagiellonia Białystok",
     "league": "Poland Ekstraklasa",
     "attack": 70,
     "midfield": 64,
-    "defense": 64,
-    "general": 65,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/114580.png",
-    "name": "Delf\u00edn SC",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 67,
-    "midfield": 66,
     "defense": 64,
     "general": 65,
     "rating": 2.0,
@@ -5588,19 +4697,8 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110967.png",
-    "name": "Blooming",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 67,
-    "midfield": 65,
-    "defense": 62,
-    "general": 65,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/319.png",
-    "name": "IFK G\u00f6teborg",
+    "name": "IFK Göteborg",
     "league": "Sweden Allsvenskan",
     "attack": 67,
     "midfield": 63,
@@ -5621,33 +4719,11 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101097.png",
-    "name": "Audax Italiano",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 66,
-    "midfield": 67,
-    "defense": 65,
-    "general": 65,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/1790.png",
     "name": "Portsmouth",
     "league": "England League One",
     "attack": 66,
     "midfield": 65,
-    "defense": 65,
-    "general": 65,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111332.png",
-    "name": "Estudiantes de Merida",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 66,
-    "midfield": 64,
     "defense": 65,
     "general": 65,
     "rating": 2.0,
@@ -5676,19 +4752,8 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112914.png",
-    "name": "Metropolitanos FC",
-    "league": "CONMEBOL Libertadores",
-    "attack": 65,
-    "midfield": 66,
-    "defense": 64,
-    "general": 65,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/101037.png",
-    "name": "\u00c7aykur Rizespor",
+    "name": "Çaykur Rizespor",
     "league": "Turkey Super Lig",
     "attack": 65,
     "midfield": 66,
@@ -5710,7 +4775,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/702.png",
-    "name": "IFK Norrk\u00f6ping",
+    "name": "IFK Norrköping",
     "league": "Sweden Allsvenskan",
     "attack": 65,
     "midfield": 66,
@@ -5754,7 +4819,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/746.png",
-    "name": "\u0130stanbulspor",
+    "name": "İstanbulspor",
     "league": "Turkey Super Lig",
     "attack": 65,
     "midfield": 64,
@@ -5770,17 +4835,6 @@
     "attack": 64,
     "midfield": 67,
     "defense": 66,
-    "general": 65,
-    "rating": 2.0,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/114582.png",
-    "name": "Deportivo Binacional",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 64,
-    "midfield": 67,
-    "defense": 64,
     "general": 65,
     "rating": 2.0,
     "fifa_version": 24
@@ -5974,7 +5028,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110645.png",
-    "name": "Viktoria K\u00f6ln",
+    "name": "Viktoria Köln",
     "league": "Germany 3. Liga",
     "attack": 63,
     "midfield": 65,
@@ -6105,17 +5159,6 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110970.png",
-    "name": "Oriente Petrolero",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 67,
-    "midfield": 64,
-    "defense": 65,
-    "general": 64,
-    "rating": 1.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110069.png",
     "name": "CD Mirandes",
     "league": "Spain Segunda Division",
@@ -6139,7 +5182,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112511.png",
-    "name": "Warta Pozna\u0144",
+    "name": "Warta Poznań",
     "league": "Poland Ekstraklasa",
     "attack": 66,
     "midfield": 64,
@@ -6150,7 +5193,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111092.png",
-    "name": "\u015al\u0105sk Wroc\u0142aw",
+    "name": "Śląsk Wrocław",
     "league": "Poland Ekstraklasa",
     "attack": 66,
     "midfield": 64,
@@ -6183,7 +5226,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/917.png",
-    "name": "Stab\u00e6k Fotball",
+    "name": "Stabæk Fotball",
     "league": "Norway Eliteserien",
     "attack": 65,
     "midfield": 65,
@@ -6227,7 +5270,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/301.png",
-    "name": "Widzew \u0141od\u017a",
+    "name": "Widzew Łodź",
     "league": "Poland Ekstraklasa",
     "attack": 65,
     "midfield": 64,
@@ -6304,7 +5347,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110078.png",
-    "name": "Petrolul Ploie\u0219ti",
+    "name": "Petrolul Ploiești",
     "league": "Romania Liga I",
     "attack": 64,
     "midfield": 65,
@@ -6359,7 +5402,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/526.png",
-    "name": "Rot-Wei\u00df Essen",
+    "name": "Rot-Weiß Essen",
     "league": "Germany 3. Liga",
     "attack": 64,
     "midfield": 64,
@@ -6369,31 +5412,9 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/115358.png",
-    "name": "Palmaflor del Tropico",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 64,
-    "midfield": 64,
-    "defense": 63,
-    "general": 64,
-    "rating": 1.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/115201.png",
     "name": "FC Stade-Lausanne Ouchy",
     "league": "Switzerland Super League",
-    "attack": 64,
-    "midfield": 64,
-    "defense": 63,
-    "general": 64,
-    "rating": 1.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/114600.png",
-    "name": "Guabir\u00e1",
-    "league": "CONMEBOL Sudamericana",
     "attack": 64,
     "midfield": 64,
     "defense": 63,
@@ -6414,7 +5435,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/100757.png",
-    "name": "Dinamo Bucure\u0219ti",
+    "name": "Dinamo București",
     "league": "Romania Liga I",
     "attack": 64,
     "midfield": 64,
@@ -6462,17 +5483,6 @@
     "league": "Romania Liga I",
     "attack": 64,
     "midfield": 63,
-    "defense": 64,
-    "general": 64,
-    "rating": 1.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116007.png",
-    "name": "General Caballero (JLM)",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 63,
-    "midfield": 65,
     "defense": 64,
     "general": 64,
     "rating": 1.5,
@@ -6535,7 +5545,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/922.png",
-    "name": "Str\u00f8msgodset Toppfotball",
+    "name": "Strømsgodset Toppfotball",
     "league": "Norway Eliteserien",
     "attack": 63,
     "midfield": 64,
@@ -6595,17 +5605,6 @@
     "attack": 62,
     "midfield": 68,
     "defense": 64,
-    "general": 64,
-    "rating": 1.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/116295.png",
-    "name": "Sportivo Ameliano",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 61,
-    "midfield": 65,
-    "defense": 63,
     "general": 64,
     "rating": 1.5,
     "fifa_version": 24
@@ -6722,7 +5721,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112126.png",
-    "name": "IFK V\u00e4rnamo",
+    "name": "IFK Värnamo",
     "league": "Sweden Allsvenskan",
     "attack": 65,
     "midfield": 63,
@@ -6755,7 +5754,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111085.png",
-    "name": "\u0141KS \u0141od\u017a",
+    "name": "ŁKS Łodź",
     "league": "Poland Ekstraklasa",
     "attack": 64,
     "midfield": 63,
@@ -6810,7 +5809,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/531.png",
-    "name": "Preu\u00dfen Munster",
+    "name": "Preußen Munster",
     "league": "Germany 3. Liga",
     "attack": 64,
     "midfield": 63,
@@ -6985,30 +5984,8 @@
     "fifa_version": 24
   },
   {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110581.png",
-    "name": "Patronato",
-    "league": "CONMEBOL Libertadores",
-    "attack": 62,
-    "midfield": 65,
-    "defense": 63,
-    "general": 63,
-    "rating": 1.5,
-    "fifa_version": 24
-  },
-  {
-    "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/111004.png",
-    "name": "Tacuary FBC",
-    "league": "CONMEBOL Sudamericana",
-    "attack": 62,
-    "midfield": 64,
-    "defense": 63,
-    "general": 63,
-    "rating": 1.5,
-    "fifa_version": 24
-  },
-  {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110752.png",
-    "name": "FC Boto\u0219ani",
+    "name": "FC Botoșani",
     "league": "Romania Liga I",
     "attack": 62,
     "midfield": 64,
@@ -7052,7 +6029,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110815.png",
-    "name": "Politehnica Ia\u0219i",
+    "name": "Politehnica Iași",
     "league": "Romania Liga I",
     "attack": 62,
     "midfield": 63,
@@ -7074,7 +6051,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/418.png",
-    "name": "Troms\u00f8 IL",
+    "name": "Tromsø IL",
     "league": "Norway Eliteserien",
     "attack": 61,
     "midfield": 64,
@@ -7118,7 +6095,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110720.png",
-    "name": "Blau-Wei\u00df Linz",
+    "name": "Blau-Weiß Linz",
     "league": "Austria Bundesliga",
     "attack": 64,
     "midfield": 62,
@@ -7250,7 +6227,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/112072.png",
-    "name": "Mj\u00e4llby AIF",
+    "name": "Mjällby AIF",
     "league": "Sweden Allsvenskan",
     "attack": 62,
     "midfield": 62,
@@ -7316,7 +6293,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/110072.png",
-    "name": "ASC O\u021belul Gala\u021bi",
+    "name": "ASC Oțelul Galați",
     "league": "Romania Liga I",
     "attack": 61,
     "midfield": 63,
@@ -7492,7 +6469,7 @@
   },
   {
     "img_url": "https://fifastatic.fifaindex.com/FIFA24/teams/light/114393.png",
-    "name": "Puszcza Niepo\u0142omice",
+    "name": "Puszcza Niepołomice",
     "league": "Poland Ekstraklasa",
     "attack": 61,
     "midfield": 61,

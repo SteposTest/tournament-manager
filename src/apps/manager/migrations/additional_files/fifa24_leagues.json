@@ -20,16 +20,8 @@
     "country": "Germany"
   },
   {
-    "name": "England Barclays WSL",
-    "country": "England"
-  },
-  {
     "name": "Italy Serie A",
     "country": "Italy"
-  },
-  {
-    "name": "USA NWSL",
-    "country": "USA"
   },
   {
     "name": "Turkey Super Lig",
@@ -42,10 +34,6 @@
   {
     "name": "Saudi Pro League",
     "country": "Saudi Arabia"
-  },
-  {
-    "name": "CONMEBOL Libertadores",
-    "country": "South America"
   },
   {
     "name": "Holland Eredivisie",
@@ -74,10 +62,6 @@
   {
     "name": "Scotland Premiership",
     "country": "Scotland"
-  },
-  {
-    "name": "CONMEBOL Sudamericana",
-    "country": "South America"
   },
   {
     "name": "Germany 2. Bundesliga",
@@ -154,13 +138,5 @@
   {
     "name": "Rep. Ireland Premier Division",
     "country": "Republic of Ireland"
-  },
-  {
-    "name": "Create Player League",
-    "country": null
-  },
-  {
-    "name": "Free Agents League",
-    "country": null
   }
 ]
