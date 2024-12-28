@@ -24,7 +24,7 @@ class CustomUser(AbstractUser):
     fifa_versions = models.JSONField(default=list)
 
     def __str__(self):
-        return self.username
+        return f'{self.username} @{self.telegram_username}'
 
     def get_future_games(self) -> list['Game']:
         """Return scheduled games."""

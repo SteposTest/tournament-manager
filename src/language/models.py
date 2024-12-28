@@ -1,11 +1,21 @@
 from pydantic import BaseModel
 
 
-class BotPhrases(BaseModel):
+class BaseLanguagePack(BaseModel):
+    """Base class for language pack models."""
+
+    language_code: str
+
+    def __str__(self):
+        return f'language: {self.language_code}'
+
+
+class BotPhrases(BaseLanguagePack):
     """Phrases that the bot responds to users with."""
 
     yes_btn: str
     no_btn: str
+    future_processor: str
     wrong_btn_pressing: str
     wrong_msg: list[str]
 
@@ -47,10 +57,16 @@ class BotPhrases(BaseModel):
     tc_first_round_pairs: str
 
 
-class BotRepresentation(BaseModel):
-    """Description of the bot commands."""
+class BotRepresentation(BaseLanguagePack):
+    """Description of the bot."""
 
     short_description: str
     description: str
+
+    commands: 'BotCommands'
+
+
+class BotCommands(BaseModel):
+    """Description of the bot commands."""
 
     start: str

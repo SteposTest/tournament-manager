@@ -6,6 +6,7 @@ from copy import deepcopy
 from types import FunctionType
 from typing import Any, Callable, Iterable
 from uuid import uuid1
+from aiogram.types import Message, CallbackQuery
 
 import ujson
 from wrapt import decorator
@@ -63,7 +64,7 @@ def async_log(
 
             logger_inst.log(
                 level=lvl,
-                msg=f'call {func_name}{' (return log disabled)' if not enable_return_log else ''}',
+                msg=f'call {func_name}',
                 extra=extra,
             )
 
@@ -131,6 +132,10 @@ def normalize_for_log(value: Any) -> Any:
         return {k: normalize_for_log(v) for k, v in value.items()}
     elif isinstance(value, (list, set, frozenset, tuple)):
         return type(value)(normalize_for_log(i) for i in value)
+    elif isinstance(value, Message):
+        return f'Message id {value.message_id} from {value.from_user.username}: {value.text[:15]}...'
+    elif isinstance(value, CallbackQuery):
+        return f'CallbackQuery id {value.id} from {value.from_user.username}: {value.data.split(':')[1]}'
 
     return _get_log_repr(value)
 

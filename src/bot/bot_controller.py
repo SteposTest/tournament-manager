@@ -1,3 +1,4 @@
+import logging
 import random
 from functools import lru_cache
 
@@ -26,91 +27,65 @@ class BotController:
 
         self.registration_processor = processors.RegistrationProcessor(self.state_controller)
         self.team_choosing_process = processors.TeamChoosingProcessor(self.state_controller)
+        self.create_tournament_process = processors.BaseProcessor(self.state_controller)
+        self.base_processor = processors.BaseProcessor(self.state_controller)
 
-    async def pass_message_to_processor(self, message: Message) -> None:
+    async def pass_message_to_processor(self, message: Message, query: CallbackQuery | None = None):
         """Find a processor and send a message to it."""
-        internal_user, bot_phrases = await get_internal_user_with_language_pack(message.from_user)
+        telegram_user = query.from_user if query else message.from_user
+        internal_user, bot_phrases = await get_internal_user_with_language_pack(telegram_user)
+
         state = self.state_controller.get_state(message.chat.id)
-        if state is not None and state.is_query:
+        if state is not None and state.is_query and query is None:
             await message.answer(random.choice(bot_phrases.wrong_msg))
             return
-
-        await self._update_messages(message.chat.id, self.bot)
 
         process = state.process_name if state else None
         try:
-            processor = await self._get_processor(bot_phrases=bot_phrases, process=process, message=message.text)
+            processor = await self._get_processor(bot_phrases=bot_phrases, process=process, message=message)
         except exceptions.ProcessHandlerNotFound:
-            logger.warning(
-                f'Handler for message "{message.text}" not found. '
-                + f'Chat id {message.chat.id}. User {message.from_user.full_name}',
-            )
             await message.answer(random.choice(bot_phrases.wrong_msg))
             return
 
-        await processor.process(
-            message=message,
-            query=None,
-            bot_phrases=bot_phrases,
-            internal_user=internal_user,
-        )
+        try:
+            await async_log(lvl=logging.DEBUG, enable_return_log=False)(processor.process)(
+                message=message,
+                query=query,
+                bot_phrases=bot_phrases,
+                internal_user=internal_user,
+            )
+        except Exception as e:
+            logger.exception(f'Exception while processing: {e}')
 
         new_state = self.state_controller.get_state(message.chat.id)
         if new_state and new_state.is_complete:
-            await self._update_messages(message.chat.id, message.bot)
-            self.state_controller.delete_state(state.chat_id)
+            await self._update_messages_from_state(message.chat.id, message.bot)
+            self.state_controller.delete_state(new_state.chat_id)
 
-    async def pass_query_to_processor(self, query: CallbackQuery) -> None:
-        """Find a handler and send a query to it."""
-        internal_user, bot_phrases = await get_internal_user_with_language_pack(query.from_user)
-        state = self.state_controller.get_state(query.message.chat.id)
-        await self._update_messages(query.message.chat.id, query.bot)
-
-        if state is None or not state.is_query:
-            logger.warning(
-                f'State for query "{query.id}" not found. '
-                + f'Chat id {query.message.chat.id}. User {query.from_user.full_name}',
-            )
-            await query.message.answer(bot_phrases.wrong_btn_pressing)
-            return
-
-        try:
-            processor = await self._get_processor(bot_phrases=bot_phrases, process=state.process_name)
-        except exceptions.ProcessHandlerNotFound:
-            logger.warning(
-                f'Handler for query "{query.id}" not found. '
-                + f'Chat id {query.message.chat.id}. User {query.from_user.full_name}',
-            )
-            return
-
-        await processor.process(
-            message=None,
-            query=query,
-            bot_phrases=bot_phrases,
-            internal_user=internal_user,
-        )
-
-        new_state = self.state_controller.get_state(query.message.chat.id)
-        if new_state and new_state.is_complete:
-            await self._update_messages(query.message.chat.id, query.bot)
-            self.state_controller.delete_state(state.chat_id)
-
+    @async_log(lvl=LOWEST_LOG_LVL)
     async def _get_processor(
         self,
         bot_phrases: BotPhrases,
         process: str | None,
-        message: str | None = None,
+        message: Message | None = None,
     ) -> processors.BaseProcessor:
-        match process or message:
+        match process or message.text:
             case ProcessName.REGISTRATION.value | bot_phrases.registrate_btn:
                 return self.registration_processor
             case ProcessName.TEAM_CHOOSING.value | bot_phrases.generate_teams_btn:
                 return self.team_choosing_process
+            case ProcessName.CREATE_TOURNAMENT.value | bot_phrases.create_tournament_btn:
+                return self.create_tournament_process
+            case bot_phrases.get_site_link_btn:
+                return self.base_processor
             case _:
-                obj_description = f'process "{process}"' if process else f'message "{message}"'
-                raise exceptions.ProcessHandlerNotFound(f'Handler for {obj_description} not found.')
+                payload = f'process "{process}"' if process else f'message "{message.text}"'
+                raise exceptions.ProcessHandlerNotFound(
+                    f'Handler for {payload} not found.'
+                    + f'Chat id {message.chat.id}. User {message.from_user.full_name}',
+                )
 
-    async def _update_messages(self, chat_id: int, bot: Bot) -> None:
+    async def _update_messages_from_state(self, chat_id: int, bot: Bot) -> None:
         state = self.state_controller.get_state(chat_id)
         if state is None:
             return

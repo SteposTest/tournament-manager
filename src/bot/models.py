@@ -8,8 +8,10 @@ from pydantic import BaseModel
 class ProcessName(str, Enum):
     """Processes declaration."""
 
+    BASE_PROCESS = 'BASE_PROCESS'
     REGISTRATION = 'REGISTRATION'
     TEAM_CHOOSING = 'TEAM_CHOOSING'
+    CREATE_TOURNAMENT = 'CREATE_TOURNAMENT'
 
 
 class ProcessPhase(str, Enum):

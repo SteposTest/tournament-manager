@@ -41,10 +41,10 @@ async def base_handler(message: Message) -> None:
 @router.callback_query(QuestionCallback.filter)
 async def handle_question_callback(query: CallbackQuery):
     """Process registration choice."""
-    await bot_controller.pass_query_to_processor(query)
+    await bot_controller.pass_message_to_processor(query.message, query)
 
 
 @router.callback_query(NumericCallback.filter)
 async def handle_numeric_callback(query: CallbackQuery):
     """Process registration choice."""
-    await bot_controller.pass_query_to_processor(query)
+    await bot_controller.pass_message_to_processor(query)
